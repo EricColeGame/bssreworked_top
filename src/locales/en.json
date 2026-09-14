@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
+    "name": "BSS Reworked Wiki",
+    "shortName": "BSS Reworked",
+    "tagline": "Codes, Guides, Items & Updates",
+    "description": "BSS Reworked Wiki provides codes, guides, updates, items, and tips to help Roblox players progress, explore features, and master the reworked simulator.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -26,23 +26,23 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
+      "title": "BSS Reworked Wiki — Codes, Recipes, Upgrades & Guides",
       "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Roblox Bee Simulator Experience",
+      "title": "BSS Reworked Wiki",
+      "description": "BSS Reworked Wiki provides players with guides, codes, updates, progression tips, item information, and gameplay resources for mastering the reworked Roblox simulator experience.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "Working Codes",
+        "Beginner Guides",
+        "Item Catalog",
+        "Bee Upgrades"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "secondaryCta": "Active Codes",
+      "tertiaryCta": "Play on Roblox",
+      "videoLabel": "Gameplay Showcase"
     },
     "updates": {
       "title": "Latest Updates",
@@ -180,7 +180,7 @@
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
+      "title": "Explore BSS Reworked Wiki",
       "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
       "modules": [
         {
@@ -342,15 +342,15 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master BSS Reworked?",
+      "description": "From collecting pollen and hatching bees to discovering secret areas, our community wiki has you covered with free, up-to-date guides.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Roblox"
     }
   },
   "bosses": {
     "meta": {
-      "title": "Bosses — Complete Guide & Walkthrough | My Seafood Stand Wiki",
+      "title": "Bosses — Complete Guide & Walkthrough | BSS Reworked Wiki",
       "description": "Complete boss guides for My Seafood Stand — all bosses from tutorial Gelum to endgame encounters with strategies, drops, and respawn timers."
     },
     "overviewTitle": "Bosses Overview",
@@ -379,21 +379,21 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "BSS Reworked Wiki",
+    "about": "BSS Reworked Wiki is an independent fan-built guide hub covering progression routes, bee types, items, working codes, and essential game mechanics for Roblox players.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
+    "copyright": "2026 BSS Reworked Wiki. Not affiliated with Roblox or the game developers.",
+    "description": "The ultimate fan guide to BSS Reworked on Roblox with codes, guides, items, and progression tips.",
+    "playGame": "Play BSS Reworked",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "vvBuilder": "Bee Builder",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
+    "raceGuides": "Bee Types",
     "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "buildGuide": "Hive Builds",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
