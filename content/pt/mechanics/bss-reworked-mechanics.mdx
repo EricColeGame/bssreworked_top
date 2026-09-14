@@ -1,0 +1,227 @@
+export const metadata = {
+  title: "Guia de Mecânicas Reformuladas do BSS: Análise Completa de Cálculos, Emblemas e Balões",
+  description: "Domine as mecânicas reformuladas do Bee Swarm Simulator. Aprenda como fórmulas de ataque de abelhas, conversões de balões e sistemas de emblemas otimizam a produção de mel.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Dominar a matemática por trás do Bee Swarm Simulator é a maneira mais rápida de transformar sua colmeia de uma batalha no início do jogo em uma verdadeira potência no endgame. Compreender as **mecânicas reformuladas do BSS** é essencial se você deseja otimizar seu mel por segundo, derrotar chefes de alto nível e escalar os bônus da sua colmeia de forma eficiente. Neste guia abrangente, vamos destrinchar como as **mecânicas reformuladas do BSS** atualizadas interagem com seus equipamentos, acúmulos de adesivos (stickers), escalonamento de combate e sistemas de conversão em campo para que você possa tomar decisões de progressão baseadas em dados.
+
+Quer você utilize uma colmeia especializada vermelha (red), azul (blue) ou branca (white), as atualizações modernas introduziram camadas intrincadas de dano, novos buffs de capacidade e regras avançadas de conversão que todo jogador precisa dominar.
+
+---
+
+## Detalhamento da Fórmula de Combate: Como Escalam os Multiplicadores de Ataque das Abelhas
+
+O combate com abelhas não se resume mais a apenas subir o nível da sua Vicious Bee; ele depende de um cálculo exato em camadas. As **mecânicas reformuladas do BSS** que regem o ataque das abelhas calculam adições fixas primeiro antes de aplicar multiplicadores percentuais.
+
+```
+Ataque Total = (Ataque Base da Abelha + Bônus Aditivos Fixos) × (1 + Multiplicadores de Ataque de Abelha)
+```
+
+Cada abelha possui um valor de ataque inicial nativo que varia entre 0 (Baby Bee) e 10 (Lion Bee). Embora a Baby Bee possa receber buffs de ataque, ela continua incapaz de atacar inimigos.
+
+```
++-----------------------------------------------------------------------------------+
+|                     FLUXO DE CÁLCULO DE ATAQUE DAS ABELHAS                        |
+|                                                                                   |
+|  [Ataque Base (0-10)] + [Bônus Fixos: Guards/Belts/Amuletos/Rage Tokens]          |
+|                                         │                                         |
+|                                         ▼                                         |
+|                           [Total de Ataque Intermediário]                         |
+|                                         │                                         |
+|                                         ▼                                         |
+|   × [Multiplicadores Percentuais: Buffs Gifted/Stinger/Néctar/Bônus de Adesivos]  |
+|                                         │                                         |
+|                                         ▼                                         |
+|     [Golpe Base Final] ───► Aplica [Poder Crítico] / [Multiplicador Super-Crítico]|
++-----------------------------------------------------------------------------------+
+```
+
+### Bônus de Atributos Aditivos Fixos
+
+Os atributos aditivos são divididos entre ataque geral e bônus específicos por tipo de cor (Incolor, Vermelho e Azul).
+
+| Fonte / Equipamento | Categoria de Atributo | Valor Fixo Concedido | Condição de Aplicação |
+| :--- | :--- | :--- | :--- |
+| **Rage Tokens** | Ataque Regular de Abelha | +1 por token (Máx. +4) | Acúmulos de buff ativos |
+| **Gifted Brave Bee** | Ataque Regular de Abelha | +1 de Ataque de Abelha | Bônus Permanente de Colmeia |
+| **Cobalt Guard** | Ataque de Abelha Azul | +3 de Ataque de Abelha Azul | Passiva equipada |
+| **Crimson Guard** | Ataque de Abelha Vermelha | +3 de Ataque de Abelha Vermelha | Passiva equipada |
+| **Petal Belt / Honeycomb Belt** | Ataque de Abelha Incolor | +1 de Ataque Incolor | Passiva equipada |
+| **Brave Guard** | Ataque de Abelha Incolor | +1 de Ataque Incolor | Passiva equipada |
+| **King Beetle Amulet** | Ataque Vermelho ou Azul | +1 de Ataque | Depende dos atributos obtidos |
+| **Cog Amulet (Ouro+)** | Ataque Vermelho ou Azul | +1 a +2 de Ataque | Depende dos atributos obtidos |
+| **Cop and Robber Sticker** | Ataque de Abelha Azul | +0.5 de Ataque de Abelha Azul | Adicionado ao Sticker Stack |
+
+### Multiplicadores de Ataque e Modificadores de Escalonamento
+
+Depois que as adições fixas são somadas, os multiplicadores aumentam drasticamente o rendimento geral da equipe durante os ciclos ativos de jogo.
+
+| Fonte do Multiplicador | Valor Percentual | Duração / Tipo | Natureza do Acúmulo |
+| :--- | :--- | :--- | :--- |
+| **Item Stinger** | +50% (Multiplicador x1.5) | 30 Segundos | Consumível Ativo |
+| **Gifted Rage Bee** | +10% de Ataque de Abelha | Permanente | Bônus de Colmeia |
+| **Status Gifted (Individual)**| +50% (Multiplicador x1.5) | Permanente | Aplica-se apenas à própria abelha |
+| **Emergency Coconut Shield** | +25% (Multiplicador x1.25)| 10 Segundos | Ativação ao receber dano |
+| **Coconut Combo** | Até +50% de Ataque | Ativo (100 Acúmulos) | Combo de coleta em campo |
+| **Néctar Revigorante (Invigorating)** | +1% a +10% de Ataque | Baseado na duração | Nível de preenchimento do néctar |
+| **Cyan Hilted Sword Sticker** | +2% de Ataque de Abelha | Permanente | Sticker Stack |
+
+Para testar suas combinações e conferir atualizações em toda a plataforma, visite a [Página Oficial do Roblox Bee Swarm Simulator](https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator) para ver eventos atuais e rotações de patches.
+
+---
+
+## Modificadores de Combate do Robo Bear Challenge
+
+Dentro do Robo Bear Challenge, melhorias temporárias do sistema modificam fortemente como suas abelhas lidam com Cogmowers e Mechsquitos. Compreender essas **mecânicas reformuladas do BSS** evita que você compre acidentalmente melhorias que reduzam o dano efetivo do seu enxame.
+
+| Nome da Melhoria | Grau de Raridade | Efeitos Positivos | Desvantagens / Observações |
+| :--- | :--- | :--- | :--- |
+| **Sharpen** | Comum | Começa em x1.2 de Ataque (Máx. x3.0) | Requer 10 níveis de melhoria |
+| **Blue Screen** | Raro | +3% de Ataque por acúmulo de Blue Boost (Máx. x1.3) | Requer manter 10x Blue Boost |
+| **Equalize** | Raro | +1 de Ataque Fixo, x1.25 de Ataque Não-Gifted | Melhor para abelhas do desafio que não são gifted |
+| **Saturate** | Raro | x1.25 a x1.75 de Ataque Azul/Incolor | **Reduz Ataque Vermelho** (x0.8 a x0.4) |
+| **SSD: White** | Raro | Capacidade Aumentada | **Reduz Ataque de Abelha** (x0.8 a x0.6) |
+| **Malware** | Épico | +3 a +9 de Ataque Fixo de Abelha | 3 níveis de melhoria |
+| **Inject** | Épico | +2 Azul, +1 Incolor, x1.25 de Dano de Impale | Excelente para combate baseado em espinhos (Spike) |
+| **NFT** | Épico | Geração extra de Cogs | **Deduz -3 de Ataque Fixo de Abelha** |
+| **Bluetooth** | Lendário | x2.0 de Ataque de Abelha Azul | Bônus massivo para composições Azuis |
+| **Codec** | Lendário | Conversão Branca massiva | **Reduz Ataque de Abelha** (multiplicador x0.8) |
+
+---
+
+## Mecânicas de Balões e Ciclos de Conversão na Colmeia
+
+Os balões representam um dos sistemas de coleta e conversão mais críticos no Bee Swarm Simulator. Eles flutuam sobre os campos, absorvendo o pólen coletado em um raio de 5 blocos antes de transportá-lo diretamente para a sua colmeia.
+
+```
++-----------------------------------------------------------------------------------+
+|                        CICLO DO BALÃO: DO CAMPO À COLMEIA                         |
+|                                                                                   |
+|  [Coleta no Campo] ──► [Balões de Campo Absorvem Pólen (raio de 5 blocos)]        |
+|                                         │                                         |
+|                                         ▼                                         |
+|                           [Buff de Aura de Balão: Até x10]                        |
+|                             (+20% de Mel de Tokens)                               |
+|                                         │                                         |
+|                                         ▼                                         |
+|                         [Balões Retornam à Base da Colmeia]                       |
+|                                         │                                         |
+|                                         ▼                                         |
+|                          [Forma o "Balão da Colmeia" Central]                     |
+|                                         │                                         |
+|                                         ▼                                         |
+|         [Conversão Concede Balloon Blessing (Até 100 Acúmulos)]                   |
+|                 (+300% de Capacidade / +150% de Mel na Colmeia)                   |
++-----------------------------------------------------------------------------------+
+```
+
+### Comparação de Tipos de Balões de Campo
+
+Os jogadores podem invocar balões de itens consumíveis (Rosa, Vermelho, Branco, Preto) ou gerar balões dinâmicos por meio de habilidades como o *Inflate Balloons* da Buoyant Bee.
+
+| Tipo de Balão | Limite Ativo no Campo | Multiplicador de Capacidade de Pólen | Duração no Campo | Obtenção Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Balão Rosa** | 1 por jogador | 1.0x da Capacidade da Mochila do Jogador | 3 Minutos | Drop de Monstros / Missão |
+| **Balão Vermelho** | 1 por jogador | 5.0x da Capacidade da Mochila do Jogador | 3 Minutos | Drop de Monstros / Missão |
+| **Balão Branco** | 1 por jogador | 10.0x da Capacidade da Mochila do Jogador | 5 Minutos | Drop de Monstros / Missão |
+| **Balão Preto** | 1 por jogador | 25.0x da Capacidade da Mochila do Jogador | 5 Minutos | Drop de Monstros / Jogo da Memória |
+| **Balão Azul** | Ilimitado | ~0.167x da Capacidade da Mochila | 20s (+2s por nível da abelha) | Habilidade da Buoyant Bee |
+| **Balão Dourado** | Ilimitado | 1.25x da Capacidade do Balão Azul | 20s (+2s por nível da abelha) | Buoyant Gifted / Surprise Party |
+
+### Esvaziamento do Balão da Colmeia e Balloon Blessing
+
+Quando os balões de campo retornam, eles se fundem no Balão da Colmeia central suspenso acima da sua base. A conversão desse pólen concede o buff **Balloon Blessing**:
+
+* **Escalonamento Máximo:** Acumular até 10 Trilhões de pólen armazenado atinge o nível máximo de **x100 Balloon Blessing**, concedendo **x4 de Capacidade** e **x2.5 de Mel na Colmeia**.
+* **Mecânicas de Esvaziamento (Decay):** O pólen dentro do Balão da Colmeia se degrada gradualmente com o tempo. Se o seu balão exceder 100x a capacidade da sua mochila, ele se esvaziará em até 99,99% ao longo de 10 minutos. Balões moderados decaem a uma taxa constante de aproximadamente 20% por hora.
+* **Prioridade de Conversão:** As abelhas esvaziarão completamente a mochila equipada antes de começarem a converter o Balão da Colmeia.
+
+---
+
+## Escalonamento Permanente da Conta: Emblemas e Requisitos
+
+Os emblemas (badges) fornecem bônus permanentes para toda a conta que formam a base de todo o escalonamento no late-game. Diferente dos consumíveis, os emblemas que não são de eventos aprimoram permanentemente atributos como Conversão Instantânea, Capacidade de Campo e Poder Crítico.
+
+```
++-----------------------------------------------------------------------------------+
+|                        GRAUS DE PROGRESSÃO DE EMBLEMAS                            |
+|                                                                                   |
+|  [Grau Cadet] ─────► [Grau Hotshot] ─────► [Grau Ace] ─────► [Grau Grandmaster]   |
+|  (Buff Nível 1)      (Buff Nível 2)        (Buff Nível 3)     (Buff Nível Máximo) |
+|                                                                                   |
+| *Nota: Ganhar um grau maior substitui os buffs inferiores; bônus não se acumulam.*|
++-----------------------------------------------------------------------------------+
+```
+
+### Recompensas Essenciais de Emblemas de Campo e Atividade
+
+| Categoria do Emblema | Requisito Cadet | Recompensa Permanente Cadet | Requisito Hotshot | Recompensa Permanente Hotshot |
+| :--- | :--- | :--- | :--- | :--- |
+| **Emblema de Mel** | 1 Milhão de Mel | Taxa de Conversão x1.3 | 10 Milhões de Mel | Taxa de Conversão x1.6 |
+| **Emblema de Missões** | 10 Missões | Capacidade x1.25 | 50 Missões | Capacidade x1.5 |
+| **Emblema de Batalha** | 100 Pontos de Batalha | +10% de Poder Crítico | 1.000 Pontos de Batalha | +20% de Poder Crítico |
+| **Emblema de Goo** | 500k de Goo | +2% de Mel Por Pólen | 5M de Goo *(Desbloqueia Covil)* | +4% de Mel Por Pólen |
+| **Sticker Stack** | 25 Adesivos | +5% Coleta de Pólen por Abelhas | 50 Adesivos | +10% Coleta de Pólen por Abelhas |
+| **Sunflower** | 250k de Pólen | +10% de Capacidade | 2.5M de Pólen | +20% de Capacidade |
+| **Mushroom** | 250k de Pólen | +3% Conversão Instantânea Vermelha | 2.5M de Pólen | +6% Conversão Instantânea Vermelha |
+| **Pine Tree** | 250k de Pólen | +5% Capacidade em Campo Azul | 2.5M de Pólen | +10% Capacidade em Campo Azul |
+| **Clover** | 250k de Pólen | +10% de Sorte de Saque (Loot Luck) | 2.5M de Pólen | +20% de Sorte de Saque (Loot Luck) |
+
+### Marcos Especiais de Emblemas e Acesso ao Mundo
+
+1. **Covil do Gummy Bear (Gummy Bear’s Lair):** Requer obter o **Emblema Goo Hotshot** (5.000.000 de Goo coletados) antes que o Gummy Bear conceda acesso.
+2. **Guilda dos Portadores de Emblemas (Badge Bearer's Guild):** Requer um mínimo de **15 Emblemas** de qualquer grau para entrar pelos portões da frente, e pelo menos **1 Emblema Ace** para acessar a sala dos fundos.
+3. **Dispensadores de Recursos:** O Dispensador de Coco escala as recompensas de itens com base no seu grau do Emblema de Coconut, enquanto o Dispensador de Cola (Glue Dispenser) fornece quantidades maiores correspondentes ao seu grau do Emblema de Goo.
+
+---
+
+## Ciclos Ambientais e Aparições Temporizadas
+
+O ciclo Dia/Noite governa a aparição de monstros raros, probabilidades de brotos (sprouts) e interações com caminhos secretos.
+
+| Fase | Duração | Efeitos Ambientais | Aparições Especiais e Chances | Regras Ambientais |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dia** | 10–30 min (~20 min em média) | Iluminação e trilha sonora padrão | Temporizadores normais de respawn de monstros | Tabelas padrão de Brotos |
+| **Noite**| Exatamente 2m 35s | Céu escuro; toca *Mountaincall* | • Taxas de Rogue Vicious Bee disparam<br>• Broto da Lua (60% de chance de plantar)<br>• Vaga-lumes aparecem em 6 campos | Plataformas do Moon Amulet se solidificam, levando à Diamond Mask e Memory Match |
+
+Os vaga-lumes pousam nos campos Rose, Cactus, Pineapple, Spider, Strawberry e Bamboo até 3 vezes por noite. Coletar todos os vaga-lumes de um grupo de campos gera tokens de recompensa instantâneos, incluindo Moon Charms, Honey Tokens e buffs de campo.
+
+---
+
+## Construção Estratégica de Colmeia com as Mecânicas Reformuladas do BSS
+
+Para maximizar os sistemas atualizados no Bee Swarm Simulator, coordene seus equipamentos, adesivos e tipos de abelhas em torno de ciclos de multiplicadores coesos, em vez de acumular atributos aleatórios.
+
+```
++-----------------------------------------------------------------------------------+
+|                        FLUXO DE PROGRESSÃO IDEAL                                  |
++-----------------------------------------------------------------------------------+
+| 1. DANO BASE: Obtenha Crimson/Cobalt Guards e acumule itens com +Ataque fixo      |
+| 2. MULTIPLICADORES: Torne Gifted abelhas-chave (Rage, Brave) e adicione adesivos  |
+| 3. CONVERSÃO: Alterne balões de campo para manter o buff de 10x Balloon Aura      |
+| 4. ARMAZENAMENTO: Converta Balões da Colmeia para preservar 100x Balloon Blessing |
+| 5. MARCOS: Foque em Emblemas Hotshot de Goo e Campos para abrir áreas de endgame  |
++-----------------------------------------------------------------------------------+
+```
+
+1. **Priorize Adições Fixas no Início:** Como os multiplicadores incidem sobre o seu ataque base final, itens que concedem +Ataque fixo (como Crimson/Cobalt Guards ou Brave Bee Gifted) fornecem muito mais valor no início do que simples buffs percentuais.
+2. **Mantenha a Balloon Aura:** De acordo com relatos da comunidade e a experiência de jogadores veteranos, manter o buff de 10x Balloon Aura durante boosts proporciona um bônus substancial de +20% de mel proveniente da coleta de tokens.
+3. **Monitore o Esvaziamento do Balão da Colmeia:** Evite encher o Balão da Colmeia além do que sua colmeia consegue converter dentro de uma hora. Fazer a conversão antes de iniciar longas sessões de coleta em campo mantém seu Balloon Blessing ativo no nível máximo.
+
+---
+
+## Perguntas Frequentes (FAQ)
+
+### Quais são as mecânicas reformuladas do BSS mais importantes para aprender primeiro?
+As **mecânicas reformuladas do BSS** mais importantes para compreender são os cálculos de combate (adições fixas aplicadas antes dos multiplicadores) e os ciclos de conversão do Balloon Blessing. Focar nessas duas áreas garante eliminações rápidas de monstros e maximiza sua conversão de mel durante grandes boosts em campos.
+
+### Os bônus de atributos dos emblemas se acumulam ao alcançar graus mais altos?
+Não. Quando você aprimora um emblema de Cadet para Hotshot, Ace, Master ou Grandmaster, o novo bônus de atributo substitui o bônus do grau anterior em vez de somar a ele.
+
+### Como funciona o sistema de decaimento (decay) do Balloon Blessing?
+Os Balões da Colmeia esvaziam-se lentamente com o tempo para evitar o armazenamento infinito de pólen. A perda base começa em torno de 20% por hora para balões moderados, mas balões que armazenam mais de 100x a capacidade máxima da sua mochila decairão rapidamente em até 99,99% em 10 minutos.
+
+### A Baby Bee pode causar dano em combate se receber bônus de equipamentos de ataque fixo?
+Não. Embora equipamentos de ataque fixo e adesivos aumentem tecnicamente o atributo de ataque da Baby Bee no papel, a Baby Bee possui uma restrição de ataque embutida e não lançará ferrões nem atacará monstros em combate.

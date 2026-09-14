@@ -1,0 +1,186 @@
+export const metadata = {
+  title: "Abelhas Reformuladas do BSS: Guia Completo de Mudanças de Balanceamento e Atributos",
+  description: "Confira a análise completa das abelhas reformuladas do BSS, cobrindo bônus de gifted, balanceamento de habilidades, atributos de conversão e as melhores builds meta de colmeia.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Dominar sua colmeia no Bee Swarm Simulator exige acompanhar como as mecânicas de habilidade, valores de tokens e sinergias entre abelhas evoluem ao longo do tempo. Compreender os ajustes de balanceamento feitos nas **abelhas reformuladas do BSS** é essencial para otimizar rotas de coleta de pólen, enfrentar desafios de alto nível e maximizar a produção de mel. Quando os desenvolvedores implementam atualizações amplas de atributos e reformulações de habilidades, saber quais **abelhas reformuladas do BSS** ganharam mais valor garante que você não desperdice Star Treats, Royal Jellies preciosas ou melhorias de drives em espaços de colmeia abaixo do ideal.
+
+Seja você o comandante de uma colmeia especializada Azul, Vermelha ou Branca — ou prefira uma composição mista e flexível —, grandes reformulações de abelhas mudam fundamentalmente os limites de combate e as taxas de conversão instantânea. Abaixo, detalhamos todos os principais ajustes de abelhas, bônus de colmeia de gifted atualizados, mecânicas de escalonamento de habilidades e estratégias meta práticas.
+
+---
+
+## Visão Geral Completa das Abelhas de Evento Reformuladas
+
+As abelhas de evento servem como a espinha dorsal dos arquétipos de colmeia especializados. Atualizações extensas reformularam a forma como seus atributos básicos, escalonamento de habilidades e gatilhos de conversão passiva se comportam durante boosts ativos nos campos.
+
+```
++------------------+------------------------------------+------------------------------------+
+| Tipo de Abelha   | Mecânica Antiga / Linha de Base    | Mecânica Reformulada / Atualização |
++------------------+------------------------------------+------------------------------------+
+| Crimson Bee      | Pólen de Pulse fixo; +15% de Pólen | +10% de Pólen de Pulse por nível;  |
+|                  | Vermelho (Gifted)                  | 25% de conversão do Convert Amount |
+| Cobalt Bee       | Pólen de Pulse fixo; +15% de Pólen | +10% de Pólen de Pulse por nível;  |
+|                  | Azul (Gifted)                      | 25% de conversão do Convert Amount |
+| Digital Bee      | Taxa fixa de duplicação de tokens  | Map Corruption escalonada por nível|
+|                  | e atraso fixo de Smile             | atraso ajustado no token Smile(14-22s)|
+| Festive Bee      | +15% de Pólen Vermelho (Gifted)    | x1.25 na Taxa de Conversão na Hive |
+| Photon Bee       | x2 Pólen Branco (Beamstorm Gifted) | x3 Pólen Branco (Beamstorm Gifted);|
+|                  |                                    | 20% de Conversão Instantânea base  |
+| Puppy Bee        | Menor vínculo; mecânica estática   | +10% Vel. Movimento, +50% Coleta   |
+|                  | de busca                           | por 10s (+1s/nível); 2x vínculo    |
+| Tabby Bee        | Escalonamento fixo de Tabby Love   | Tabby Love máx concede +1% Crítico,|
+|                  | máximo                             | +25% Poder Crítico (+1% Super Crít)|
+| Windy Bee        | Duração de Rain Cloud +5s/nível    | Duração de Rain Cloud +10s/nível;  |
+|                  |                                    | Nuvens dão 10-20% de IC Única      |
++------------------+------------------------------------+------------------------------------+
+```
+
+### Sincronização de Crimson e Cobalt Bee
+A dupla de super-heróis recebeu correções de bugs cruciais e melhorias de escalonamento. Seus pulsos característicos agora escalonam corretamente com os níveis das abelhas (+10% de pólen por nível) junto com multiplicadores ativos de pólen de Event Bee. Além disso, quando gifted, seus pulsos ativam uma conversão instantânea igual a 25% do Convert Amount de cada abelha afetada, multiplicando ainda mais com acúmulos de boost de campo ativos. Suas habilidades de Bomb Sync também fornecem um bônus de +10% de pólen de cor e +10% de Conversão Instantânea enquanto ativas.
+
+### Melhorias nas Abelhas Photon, Tabby e Puppy
+A Photon Bee ganhou 20% de Conversão Instantânea nativa em todas as ações de coleta e habilidade, enquanto seu Beamstorm gifted agora oferece um multiplicador de x3 no Pólen Branco coletado. O teto de desempenho da Tabby Bee aumentou significativamente: jogadores que mantêm o Tabby Love no máximo recebem um buff de 10 segundos (+1s por nível de abelha) oferecendo +1% de Chance de Crítico e +25% de Poder Crítico (além de +1% de Chance de Super Crítico quando gifted). O Puppy Love da Puppy Bee agora fornece um reforço ativo de movimento e coleta (+10% de Velocidade de Movimento da Abelha e +50% de Quantidade de Coleta da Abelha), além do dobro de rendimento de vínculo.
+
+---
+
+## Rebalanceamento de Abelhas Míticas e Lendárias
+
+As abelhas míticas ditam as estratégias de farming do late-game, tornando suas atualizações de balanceamento particularmente impactantes para o jogo em alto nível.
+
+```
++------------------+---------------+--------------------+-----------------------------------+
+| Raridade         | Nome da Abelha| Atributo / Hab.    | Resumo da Reformulação            |
++------------------+---------------+--------------------+-----------------------------------+
+| Mítica           | Spicy Bee     | Convert Amount     | Conversão base aumentada para 300;|
+|                  |               | & Flame Fuel       | Flame Fuel escala com Field Boost |
+| Mítica           | Precise Bee   | Convert Amount     | Conversão base reduzida para 80   |
+| Mítica           | Tadpole Bee   | Debuff de Ataque & | Removido debuff de ataque x0.5;   |
+|                  |               | Bônus Gifted       | Gifted dá +25% Duração da Bubble  |
+| Mítica           | Buoyant Bee   | Ataque e Tipo Bomba| Ataque aumentado para 4; gera     |
+|                  |               |                    | Blue Bomb em vez de Blue Bomb+    |
+| Lendária         | Lion Bee      | Bônus Hive e Conv. | +5% Pólen de Abelha Gifted;       |
+|                  |               |                    | Convert Amount base buffado p/ 180|
+| Lendária         | Demon Bee     | Conversão Instant. | 10% IC base (20% se Gifted);      |
+|                  | & Bônus Hive  | Bônus gifted +20% IC de Bomba Inst|
+| Lendária         | Diamond Bee   | Shimmering Honey   | Bônus de mel escalonado para 25% +|
+|                  |               |                    | 2.5% por nível de abelha          |
++------------------+---------------+--------------------+-----------------------------------+
+```
+
+### Mecânicas de Campo: Sinergias de Flame e Bubble
+As atualizações estruturais nos elementos de campo transformaram diretamente a forma como as **abelhas reformuladas do BSS** interagem com objetos gerados:
+* **Flames (Chamas):** As chamas geradas por abelhas agora escalam a +10% de pólen por nível de abelha e causam dano de combate igual a `10 + 25%` do ataque base da abelha por segundo. Dark Flames causam 50% mais dano do que as chamas padrão.
+* **Bubbles (Bolhas):** A duração base foi padronizada para 4 segundos, ganhando +5% de pólen por nível de abelha. O bônus gifted da Tadpole Bee mudou para +25% de Duração da Bolha para estender o tempo de vida dessas bolhas de alto rendimento.
+
+---
+
+## Ajustes em Abelhas Raras, Épicas e Comuns
+
+As abelhas de níveis inferiores e de meio de jogo também receberam rebalanceamentos essenciais, principalmente mudando porcentagens aditivas para bônus multiplicativos ou modificando sua utilidade quando gifted.
+
+```
++---------------+---------------+---------------------------+-------------------------------+
+| Tier          | Nome da Abelha| Bônus Gifted Anterior     | Bônus Gifted Novo / Atualizado|
++---------------+---------------+---------------------------+-------------------------------+
+| Rara          | Bomber Bee    | +15% de Pólen de Bomba    | x1.1 de Pólen de Bomba        |
+| Rara          | Rad Bee       | +15% de Pólen Vermelho    | x1.1 de Pólen Vermelho        |
+| Rara          | Cool Bee      | +15% de Pólen Azul        | x1.1 de Pólen Azul            |
+| Rara          | Rascal Bee    | +30% Pólen de Bomba Verm. | x1.25 Pólen de Bomba Vermelha |
+| Rara          | Hasty Bee     | +20% Vel. Movimento Player| +15% Vel. Movimento Player    |
+| Rara          | Stubborn Bee  | +20% Duração dos Tokens   | +15% Duração de Token de Hab. |
+| Épica         | Rage Bee      | +1 de Ataque              | +10% de Ataque de Abelha      |
+| Épica         | Bubble Bee    | +50% de Pólen de Bolha    | x1.25 de Pólen de Bolha       |
+| Épica         | Fire Bee      | +50% de Pólen de Chama    | x1.25 de Pólen de Chama       |
+| Épica         | Shocked Bee   | +20% de Pólen Branco      | x1.1 de Pólen Branco          |
+| Épica         | Frosty Bee    | +30% Pólen de Bomba Azul  | x1.25 Pólen de Bomba Azul     |
+| Épica         | Demo Bee      | +30% Pólen de Buzz Bomb   | x1.25 de Pólen de Buzz Bomb   |
++---------------+---------------+---------------------------+-------------------------------+
+```
+
+Para registros oficiais de patch e documentação verificada pela comunidade sobre mecânicas de habilidade, consulte o [Hub de Atualizações da Wiki de Bee Swarm Simulator](https://bee-swarm-simulator.fandom.com/wiki/Updates).
+
+### Ajustes de Ataque Base em Toda a Lista
+Para melhorar a velocidade de eliminação de monstros na progressão do mid-game, Onett implementou um aumento direto de +1 no ataque base para uma ampla gama de abelhas:
+* **Abelhas de Evento:** Crimson, Cobalt, Vicious, Windy, Photon, Gummy
+* **Abelhas Raras / Épicas / Lendárias:** Brave, Rage, Riley, Bucko, Exhausted, Frosty, Honey, Lion
+
+Os acúmulos de Rage também foram expandidos, permitindo até 4 acúmulos (anteriormente 3) para rajadas de combate aprimoradas contra chefes como o Coconut Crab e a Stump Snail.
+
+---
+
+## Estratégias de Construção de Colmeia com Abelhas Reformuladas
+
+Ao organizar sua colmeia em torno das capacidades das **abelhas reformuladas do BSS**, escolher a combinação certa de multiplicadores, conversões e mutações é fundamental.
+
+```
++------------------+-----------------------+-----------------------+------------------------+
+| Arquétipo        | Principais Abelhas    | Foco Principal de     | Mutações Recomendadas  |
+| de Colmeia       | Reformuladas          | Atributos             |                        |
++------------------+-----------------------+-----------------------+------------------------+
+| Red Hive         | Spicy, Precise,       | Pólen de Chama, Poder | Chance de Crítico,     |
+| (Scorch-Flame)   | Crimson, Fire, Rad    | Crítico, Ataque Abelha| Ataque Multiplicativo  |
+| Blue Hive        | Buoyant, Tadpole,     | Duração da Bolha,     | Conversão Instantânea, |
+| (Pop Bloat)      | Cobalt, Bubble, Cool  | IC Única, Capacidade  | Vel. Movimento Base    |
+| White Hive       | Vector, Digital,      | Coleta com Marks,     | Taxa de Habilidade,    |
+| (Vector-Gummy)   | Photon, Gummy, Lion   | Conversão Token Duped | Chance de Crítico      |
+| Mixed Hive       | Tabby, Festive,       | Pólen Equilibrado,    | Conversão Aditiva,     |
+| (Progressão)     | Photon, Puppy, Vicious| Taxa Conv Hive, Vel.  | Quantidade Coleta Base |
++------------------+-----------------------+-----------------------+------------------------+
+```
+
+### Otimizando a Conversão Instantânea Única
+Uma das mecânicas mais importantes que interagem com as **abelhas reformuladas do BSS** é a **Conversão Instantânea Única (Unique IC)**. Ao contrário da conversão aditiva tradicional, a IC Única se aplica de forma independente:
+
+$$\text{Conversão Efetiva} = 1 - (1 - \text{IC}_1) \times (1 - \text{IC}_2)$$
+
+Por exemplo, ter duas fontes separadas de 50% de IC Única resulta em uma Conversão Instantânea efetiva de 75%. Com Photon Bee, Demon Bee, nuvens da Windy Bee e mutações fornecendo IC Única diretamente, seu enxame pode converter grandes cargas de pólen no próprio campo sem encher sua mochila instantaneamente.
+
+### Principais Prioridades de Mutação
+Com a introdução de limites de mutação expandidos, priorizar atributos em suas principais **abelhas reformuladas do BSS** gera ganhos de desempenho notáveis:
+1. **Chance de Crítico (1%–3%):** Nível superior para abelhas de ataque, abelhas de coleta e habilidades de token.
+2. **Conversão Instantânea (8%–20%):** Essencial para farming de alta produção no campo.
+3. **Velocidade de Movimento (2–6 base):** Maximiza a coleta de habilidades e a eficiência na geração de tokens.
+4. **Quantidade de Conversão (+80 máx aditivo):** Alta sinergia com ativações de pulsos gifted de Crimson e Cobalt.
+
+---
+
+## Fluxo de Trabalho Passo a Passo para Rebalancear a Colmeia
+
+Siga este checklist passo a passo para atualizar a configuração da sua colmeia após grandes rebalanceamentos de abelhas:
+
+```
++------+--------------------------+---------------------------------------------------------+
+| Passo| Ação                     | Principais Objetivos e Detalhes                         |
++------+--------------------------+---------------------------------------------------------+
+| 1    | Auditar Bônus Gifted     | Substitua opções aditivas fixas por abelhas             |
+|      |                          | multiplicativas reformuladas (ex: Bomber, Fire, Bubble).|
+| 2    | Melhorar Sinergias Pulse | Torne Crimson e Cobalt gifted para garantir a conversão |
+|      |                          | por pulso escalonada com acúmulos de Field Boost.       |
+| 3    | Maximizar Tabby Love     | Alcance 1.000 tokens de Tabby Love para ativar os buffs |
+|      |                          | passivos reformulados de Poder Crítico e Super-Crítico. |
+| 4    | Rolar Mutações Fracas    | Use Neonberries e Bitterberries para Chance de Crítico  |
+|      |                          | ou Conversão Instantânea nas abelhas de coleta.         |
+| 5    | Ajustar Tempo de Mochila | Teste as taxas de enchimento no seu campo principal de  |
+|      |                          | farming e ajuste as fontes de IC Única conforme o caso. |
++------+--------------------------+---------------------------------------------------------+
+```
+
+A experiência prática dos jogadores mostra consistentemente que otimizar abelhas com multiplicadores gifted antes de investir pesado em cópias de míticas oferece um aumento muito mais econômico na geração geral de mel.
+
+---
+
+## Perguntas Frequentes (FAQ)
+
+### Quais abelhas reformuladas do BSS receberam os maiores buffs gerais?
+Crimson e Cobalt Bees receberam alguns dos buffs mais substanciais devido às fórmulas de pulso escalonadas por nível e ativações de conversão instantânea em acúmulos de boost de campo ativos. A Photon Bee (com 20% de Conversão Instantânea base e x3 de Pólen Branco Gifted) e a Tabby Bee (com atributos bônus de Crítico e Super-Crítico no Tabby Love máximo) também ganharam um valor significativo para o late-game.
+
+### Como a reformulação afetou os bônus gifted de bombas e de cores?
+Anteriormente, abelhas como Bomber, Rad, Cool, Fire e Bubble concediam bônus percentuais aditivos (como +15% ou +50%). A reformulação transformou esses valores em atributos verdadeiramente multiplicativos (como x1.1 ou x1.25), gerando um escalonamento muito mais forte quando combinados com amuletos de fim de jogo, beequips e ventos de campo.
+
+### Qual é a vantagem da Conversão Instantânea Única em abelhas reformuladas?
+A Conversão Instantânea Única é calculada de forma independente dos pools padrão de conversão instantânea. Isso permite que jogadores que utilizam abelhas como Demon Bee, Photon Bee e Windy Bee convertam porções substanciais de seu pólen coletado a cada tick, prolongando o tempo de farming durante grandes combos de boosts de campo.
+
+### Devo manter a Puppy Bee após os ajustes recentes?
+Relatórios da comunidade e testes de jogadores mostram que a Puppy Bee está significativamente mais útil pós-reformulação. O buff de +10% de Velocidade de Movimento da Abelha e +50% de Quantidade de Coleta da Abelha proveniente do Puppy Love fornece uma utilidade de curto prazo notável para o time, e o pagamento duplicado de vínculo acelera consideravelmente o aumento de nível da colmeia.

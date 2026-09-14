@@ -1,0 +1,227 @@
+export const metadata = {
+  title: "Guía de mecánicas rediseñadas de BSS: Análisis completo de matemáticas, insignias y globos",
+  description: "Domina las mecánicas rediseñadas de BSS en Bee Swarm Simulator. Aprende cómo las fórmulas de ataque de las abejas, las conversiones de globos y los sistemas de insignias optimizan la producción de miel.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Dominar las matemáticas detrás de Bee Swarm Simulator es la forma más rápida de transformar tu colmena de una lucha en el juego temprano a una potencia indiscutible en el juego tardío. Comprender las **mecánicas rediseñadas de BSS** es esencial si deseas optimizar tu miel por segundo, derrotar a jefes de alto nivel y escalar las bonificaciones de tu colmena de manera eficiente. En esta guía completa, desglosaremos cómo las **mecánicas rediseñadas de BSS** actualizadas interactúan con tu equipamiento, acumulaciones de stickers (pegatinas), escalado de combate y sistemas de conversión en campos para que puedas tomar decisiones de progresión basadas en datos.
+
+Ya sea que manejes una colmena especializada roja, azul o blanca, las actualizaciones modernas han introducido capas de daño intrincadas, nuevas mejoras de capacidad y reglas de conversión avanzadas que todo jugador debe dominar.
+
+---
+
+## Desglose de la fórmula de combate: Cómo escalan los multiplicadores de ataque de las abejas
+
+El combate de las abejas ya no consiste simplemente en subir de nivel a tu Vicious Bee; se basa en un cálculo estratificado exacto. Las **mecánicas rediseñadas de BSS** que rigen el ataque de las abejas calculan primero las adiciones planas base antes de aplicar los multiplicadores porcentuales.
+
+```
+Ataque Total = (Ataque Base de la Abeja + Bonificaciones Planas Aditivas) × (1 + Multiplicadores de Ataque de Abeja)
+```
+
+Cada abeja tiene un valor de ataque inicial nativo que oscila entre 0 (Baby Bee) y 10 (Lion Bee). Aunque Baby Bee puede recibir mejoras de ataque, sigue siendo incapaz de atacar a los enemigos.
+
+```
++-----------------------------------------------------------------------------------+
+|                   PIPELINE DE CÁLCULO DE ATAQUE DE LAS ABEJAS                     |
+|                                                                                   |
+|  [Ataque Base (0-10)] + [Bonif. Planas: Guardas/Cinturones/Amuletos/Rage Tokens]  |
+|                                         │                                         |
+|                                         ▼                                         |
+|                           [Total de Ataque Intermedio]                            |
+|                                         │                                         |
+|                                         ▼                                         |
+|    × [Multiplicadores Porcentuales: Buffs Gifted/Stinger/Néctar/Stickers]         |
+|                                         │                                         |
+|                                         ▼                                         |
+|       [Golpe Base Final] ───► Aplica [Poder Crítico] / [Multiplicador Súper-Crítico] |
++-----------------------------------------------------------------------------------+
+```
+
+### Bonificaciones estadísticas planas aditivas
+
+Las estadísticas aditivas se dividen entre el ataque general y las bonificaciones específicas según el tipo de color (Incoloro, Rojo y Azul).
+
+| Fuente / Equipamiento | Categoría de estadística | Valor plano otorgado | Condición de aplicación |
+| :--- | :--- | :--- | :--- |
+| **Rage Tokens** | Ataque regular de abeja | +1 por ficha (Máx. +4) | Acumulaciones de buff activas |
+| **Gifted Brave Bee** | Ataque regular de abeja | +1 Ataque de abeja | Bonificación permanente de colmena |
+| **Cobalt Guard** | Ataque de abeja azul | +3 Ataque de abeja azul | Pasiva equipada |
+| **Crimson Guard** | Ataque de abeja roja | +3 Ataque de abeja roja | Pasiva equipada |
+| **Petal Belt / Honeycomb Belt** | Ataque de abeja incolora | +1 Ataque incoloro | Pasiva equipada |
+| **Brave Guard** | Ataque de abeja incolora | +1 Ataque incoloro | Pasiva equipada |
+| **King Beetle Amulet** | Ataque rojo o azul | +1 Ataque | Dependiente de la tirada |
+| **Cog Amulet (Oro+)** | Ataque rojo o azul | +1 a +2 Ataque | Dependiente de la tirada |
+| **Cop and Robber Sticker** | Ataque de abeja azul | +0.5 Ataque de abeja azul | Añadido al Sticker Stack |
+
+### Multiplicadores de ataque y modificadores de escalado
+
+Después de sumar las adiciones planas, los multiplicadores aumentan drásticamente el rendimiento general del equipo durante los ciclos de juego activos.
+
+| Fuente del multiplicador | Valor porcentual | Duración / Tipo | Naturaleza de acumulación |
+| :--- | :--- | :--- | :--- |
+| **Ítem Stinger** | +50% (Multiplicador x1.5) | 30 Segundos | Consumible activo |
+| **Gifted Rage Bee** | +10% Ataque de abeja | Permanente | Bonificación de colmena |
+| **Estado Gifted (Individual)**| +50% (Multiplicador x1.5) | Permanente | Se aplica solo a sí misma |
+| **Emergency Coconut Shield** | +25% (Multiplicador x1.25)| 10 Segundos | Activación al recibir daño |
+| **Coconut Combo** | Hasta +50% Ataque | Activo (100 acumulaciones) | Combo de recolección en campo |
+| **Invigorating Nectar** | +1% a +10% Ataque | Basado en duración | Plenitud del néctar |
+| **Cyan Hilted Sword Sticker** | +2% Ataque de abeja | Permanente | Sticker Stack |
+
+Para probar tus configuraciones y explorar las actualizaciones en toda la plataforma, visita la [página oficial de Bee Swarm Simulator en Roblox](https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator) para conocer los eventos actuales y las rotaciones de parches.
+
+---
+
+## Modificadores de combate del Robo Bear Challenge
+
+Dentro del Robo Bear Challenge, las mejoras temporales del sistema modifican en gran medida el rendimiento de tus abejas frente a los Cogmowers y Mechsquitos. Comprender estas **mecánicas rediseñadas de BSS** evita que compres accidentalmente mejoras que reduzcan el daño efectivo de tu enjambre.
+
+| Nombre de la mejora | Nivel de rareza | Efectos positivos | Desventajas / Notas |
+| :--- | :--- | :--- | :--- |
+| **Sharpen** | Común | Comienza en x1.2 Ataque (Máx. x3.0) | Requiere 10 niveles de mejora |
+| **Blue Screen** | Raro | +3% Ataque por acumulación de Blue Boost (Máx. x1.3) | Requiere mantener 10x Blue Boost |
+| **Equalize** | Raro | +1 Ataque plano, x1.25 Ataque no-gifted | Ideal para abejas de desafío no-gifted |
+| **Saturate** | Raro | x1.25 a x1.75 Ataque azul/incoloro | **Reduce el Ataque rojo** (x0.8 a x0.4) |
+| **SSD: White** | Raro | Capacidad aumentada | **Reduce el Ataque de abejas** (x0.8 a x0.6) |
+| **Malware** | Épico | +3 a +9 Ataque de abeja plano | 3 niveles de mejora |
+| **Inject** | Épico | +2 Azul, +1 Incoloro, x1.25 Daño de Impale | Excelente para combate basado en espinas |
+| **NFT** | Épico | Generación adicional de Cogs | **Resta -3 Ataque de abeja plano** |
+| **Bluetooth** | Legendario | x2.0 Ataque de abeja azul | Bonificación masiva para builds azules |
+| **Codec** | Legendario | Conversión blanca masiva | **Reduce el Ataque de abejas** (multiplicador x0.8) |
+
+---
+
+## Mecánicas de globos y bucles de conversión en la colmena
+
+Los globos representan uno de los sistemas de recolección y conversión más críticos en Bee Swarm Simulator. Los globos flotan sobre los campos, absorbiendo el polen recolectado en un radio de 5 casillas antes de transportarlo directamente a tu colmena.
+
+```
++-----------------------------------------------------------------------------------+
+|                        CICLO DE GLOBOS DEL CAMPO A LA COLMENA                     |
+|                                                                                   |
+|  [Recolección en Campo] ──► [Globos de Campo Absorben Polen (radio 5 casillas)]   |
+|                                         │                                         |
+|                                         ▼                                         |
+|                          [Buff Balloon Aura: Hasta x10]                           |
+|                             (+20% Miel de Tokens)                                 |
+|                                         │                                         |
+|                                         ▼                                         |
+|                        [Los globos vuelven a la Colmena]                          |
+|                                         │                                         |
+|                                         ▼                                         |
+|                         [Forman el "Hive Balloon" Central]                        |
+|                                         │                                         |
+|                                         ▼                                         |
+|          [La conversión otorga Balloon Blessing (Hasta x100 Acumulaciones)]       |
+|                  (+300% Capacidad / +150% Miel en la Colmena)                     |
++-----------------------------------------------------------------------------------+
+```
+
+### Comparativa de tipos de globos de campo
+
+Los jugadores pueden invocar globos mediante ítems consumibles (Rosa, Rojo, Blanco, Negro) o generar globos dinámicos a través de habilidades como *Inflate Balloons* de Buoyant Bee.
+
+| Tipo de globo | Límite activo en campo | Multiplicador de capacidad de polen | Vida útil en campo | Obtención principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pink Balloon** | 1 por jugador | 1.0x Capacidad de mochila del jugador | 3 Minutos | Drop de monstruos / Misión |
+| **Red Balloon** | 1 por jugador | 5.0x Capacidad de mochila del jugador | 3 Minutos | Drop de monstruos / Misión |
+| **White Balloon** | 1 por jugador | 10.0x Capacidad de mochila del jugador | 5 Minutos | Drop de monstruos / Misión |
+| **Black Balloon** | 1 por jugador | 25.0x Capacidad de mochila del jugador | 5 Minutos | Drop de monstruos / Memory Match |
+| **Blue Balloon** | Ilimitado | ~0.167x Capacidad de mochila | 20s (+2s por nivel de abeja) | Habilidad de Buoyant Bee |
+| **Gold Balloon** | Ilimitado | 1.25x Capacidad de Blue Balloon | 20s (+2s por nivel de abeja) | Buoyant Gifted / Surprise Party |
+
+### Desgaste del Hive Balloon y Balloon Blessing
+
+Cuando los globos de campo regresan, se fusionan en el Hive Balloon central suspendido sobre tu base. Convertir este polen te otorga el buff **Balloon Blessing**:
+
+* **Escalado máximo:** Acumular hasta 10 billones (Trillion en inglés) de polen almacenado alcanza el máximo de **x100 Balloon Blessing**, otorgando **x4 de Capacidad** y **x2.5 de Miel en la Colmena**.
+* **Mecánicas de desgaste:** El polen dentro del Hive Balloon se degrada progresivamente con el tiempo. Si tu globo supera 100 veces la capacidad de tu mochila, se agotará hasta en un 99.99% en 10 minutos. Los globos moderados decaen a un ritmo constante de aproximadamente un 20% por hora.
+* **Prioridad de conversión:** Las abejas vaciarán por completo tu mochila equipada antes de comenzar a convertir el Hive Balloon.
+
+---
+
+## Escalado permanente de la cuenta: Insignias y umbrales
+
+Las insignias proporcionan mejoras permanentes para toda la cuenta que constituyen la base de todo el escalado del juego tardío. A diferencia de los consumibles, las insignias no relacionadas con eventos mejoran permanentemente estadísticas como Conversión Instantánea, Capacidad en Campo y Poder Crítico.
+
+```
++-----------------------------------------------------------------------------------+
+|                            NIVELES DE PROGRESIÓN DE INSIGNIAS                     |
+|                                                                                   |
+|  [Rango Cadet] ─────► [Rango Hotshot] ─────► [Rango Ace] ─────► [Rango Grandmaster] |
+|   (Buff Nivel 1)       (Buff Nivel 2)        (Buff Nivel 3)       (Buff Nivel Máx) |
+|                                                                                   |
+|  *Nota: Obtener un rango superior reemplaza los anteriores; no se acumulan.*     |
++-----------------------------------------------------------------------------------+
+```
+
+### Recompensas de insignias esenciales de campo y actividad
+
+| Categoría de insignia | Requisito de Cadet | Recompensa permanente Cadet | Requisito de Hotshot | Recompensa permanente Hotshot |
+| :--- | :--- | :--- | :--- | :--- |
+| **Honey Badge** | 1 Millón de Miel | Tasa de conversión x1.3 | 10 Millones de Miel | Tasa de conversión x1.6 |
+| **Quest Badge** | 10 Misiones | x1.25 Capacidad | 50 Misiones | x1.5 Capacidad |
+| **Battle Badge** | 100 Puntos de Batalla | +10% Poder Crítico | 1,000 Puntos de Batalla | +20% Poder Crítico |
+| **Goo Badge** | 500k Goo | +2% Miel por Polen | 5M Goo *(Desbloqueo de Guarida)* | +4% Miel por Polen |
+| **Sticker Stack** | 25 Stickers | +5% Polen recolectado por abejas | 50 Stickers | +10% Polen recolectado por abejas |
+| **Sunflower** | 250k Polen | +10% Capacidad | 2.5M Polen | +20% Capacidad |
+| **Mushroom** | 250k Polen | +3% Conversión roja instantánea | 2.5M Polen | +6% Conversión roja instantánea |
+| **Pine Tree** | 250k Polen | +5% Capacidad en campo azul | 2.5M Polen | +10% Capacidad en campo azul |
+| **Clover** | 250k Polen | +10% Suerte de botín | 2.5M Polen | +20% Suerte de botín |
+
+### Hitos especiales de insignias y acceso al mundo
+
+1. **Guarida de Gummy Bear:** Requiere obtener la **Goo Hotshot Badge** (5,000,000 de Goo recolectado) antes de que Gummy Bear te permita el acceso.
+2. **Badge Bearer's Guild:** Requiere un mínimo de **15 Insignias** de cualquier rango para cruzar las puertas principales, y al menos **1 Ace Badge** para acceder a la sala trasera interior.
+3. **Dispensadores de recursos:** El dispensador de coco escala la cantidad de recompensas según el rango de tu Coconut Badge, mientras que el dispensador de pegamento ofrece mayores cantidades correspondientes a tu rango de Goo Badge.
+
+---
+
+## Ciclos ambientales y apariciones programadas
+
+El ciclo de Día/Noche regula la aparición de monstruos raros, las probabilidades de brotes (sprouts) y las interacciones con caminos secretos.
+
+| Fase | Duración | Efectos ambientales | Apariciones especiales y probabilidades | Reglas ambientales |
+| :--- | :--- | :--- | :--- | :--- |
+| **Día** | 10–30 min (~20 min promedio) | Iluminación y banda sonora estándar | Temporizadores normales de reaparición de monstruos | Tablas estándar de Sprouts |
+| **Noche**| Exactamente 2m 35s | Cielo oscuro; suena *Mountaincall* | • Aumentan las probabilidades de Rogue Vicious Bee<br>• Moon Sprout (60% de probabilidad de plantación)<br>• Luciérnagas aparecen en 6 campos | Las plataformas del Moon Amulet se solidifican dando paso a la Diamond Mask y al Memory Match |
+
+Las luciérnagas se detienen en los campos Rose, Cactus, Pineapple, Spider, Strawberry y Bamboo hasta 3 veces por noche. Atrapar a todas las luciérnagas de un grupo en el campo genera fichas de recompensa instantáneas, incluyendo Moon Charms, Honey Tokens y mejoras para el campo.
+
+---
+
+## Construcción estratégica de la colmena con las mecánicas rediseñadas de BSS
+
+Para maximizar los sistemas actualizados en Bee Swarm Simulator, coordina tu equipamiento, stickers y tipos de abejas en torno a bucles de multiplicadores cohesionados en lugar de acumular estadísticas al azar.
+
+```
++-----------------------------------------------------------------------------------+
+|                        PIPELINE DE PROGRESIÓN ÓPTIMO                              |
++-----------------------------------------------------------------------------------+
+|  1. DAÑO BASE: Obtén Crimson/Cobalt Guards y acumula ítems de +Ataque plano       |
+|  2. MULTIPLICADORES: Haz Gifted a abejas clave (Rage, Brave) y coloca Stickers   |
+|  3. CONVERSIÓN: Rota globos de campo para mantener activo el Balloon Aura 10x    |
+|  4. ALMACENAMIENTO: Convierte Hive Balloons con frecuencia para retener 100x      |
+|  5. HITOS: Apunta a Hotshot Badges de Goo y Campos para desbloquear zonas finales |
++-----------------------------------------------------------------------------------+
+```
+
+1. **Prioriza las adiciones planas al principio:** Dado que los multiplicadores escalan sobre tu ataque base final, los objetos que otorgan +Ataque plano (como Crimson/Cobalt Guards o una Brave Bee gifted) ofrecen mucho más valor al inicio que los incrementos porcentuales brutos.
+2. **Mantén el Balloon Aura:** De acuerdo con los informes de la comunidad y la experiencia de jugadores veteranos, mantener un buff de Balloon Aura x10 durante las fases de recolección intensiva (boosts) proporciona un notable aumento del +20% de miel a partir de la recolección de tokens.
+3. **Controla el desgaste del Hive Balloon:** Evita sobrecargar tu Hive Balloon más allá de lo que tu colmena pueda convertir en una hora. Convertir antes de iniciar sesiones intensivas de recolección en campos mantiene tu Balloon Blessing activo en su nivel máximo.
+
+---
+
+## Preguntas frecuentes (FAQ)
+
+### ¿Cuáles son las mecánicas rediseñadas de BSS más importantes que se deben aprender primero?
+Las **mecánicas rediseñadas de BSS** más importantes a comprender son los cálculos de combate (las adiciones planas se aplican antes de los multiplicadores) y los ciclos de conversión del Balloon Blessing. Centrarse en estas dos áreas garantiza eliminaciones rápidas de monstruos y maximiza tu conversión de miel durante grandes boosts en los campos.
+
+### ¿Se acumulan las bonificaciones de estadísticas de las insignias al alcanzar rangos más altos?
+No. Cuando mejoras una insignia de Cadet a Hotshot, Ace, Master o Grandmaster, la bonificación del nuevo rango sobrescribe la del rango anterior en lugar de sumarse a ella.
+
+### ¿Cómo funciona el sistema de desgaste del Balloon Blessing?
+Los Hive Balloons pierden polen lentamente con el tiempo para evitar el almacenamiento infinito. El drenaje base comienza alrededor del 20% por hora para globos moderados, pero los globos que contienen más de 100 veces la capacidad máxima de tu mochila decaerán rápidamente hasta en un 99.99% en 10 minutos.
+
+### ¿Puede Baby Bee infligir daño de combate si se mejora con equipamiento de ataque plano?
+No. Aunque el equipamiento de ataque plano y los stickers aumenten técnicamente el valor de ataque de Baby Bee en los números, Baby Bee tiene una restricción de ataque inherente y no lanzará aguijones ni fijará como objetivo a los enemigos en combate.

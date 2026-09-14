@@ -1,0 +1,185 @@
+export const metadata = {
+  title: "Lebah Rework BSS: Panduan Lengkap Perubahan Keseimbangan & Statistik",
+  description: "Pelajari rincian komprehensif lebah rework BSS, mencakup bonus gifted, penyesuaian kemampuan, statistik konversi, dan build meta hive terbaik.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Menguasai hive Anda di Bee Swarm Simulator membutuhkan pemahaman mendalam tentang bagaimana mekanik kemampuan, nilai token, dan sinergi lebah berkembang dari waktu ke waktu. Memahami penyesuaian keseimbangan yang diterapkan pada **lebah rework BSS** sangat penting untuk mengoptimalkan rute pengumpulan polen, menyelesaikan tantangan tingkat tinggi, dan memaksimalkan produksi madu. Saat pengembang meluncurkan pembaruan statistik besar-besaran dan perombakan kemampuan, mengetahui **lebah rework BSS** mana yang memperoleh peningkatan nilai tertinggi akan memastikan Anda tidak membuang Star Treat, Royal Jelly, atau peningkatan drive yang berharga pada slot hive yang kurang optimal.
+
+Baik Anda mengoperasikan hive spesialisasi Biru (Blue), Merah (Red), atau Putih (White)—maupun lebih menyukai komposisi hive campuran (mixed hive) yang fleksibel—rework lebah secara fundamental mengubah ambang batas pertarungan dan tingkat konversi instan. Di bawah ini, kami menguraikan semua penyesuaian lebah utama, pembaruan bonus hive gifted, penskalaan mekanik kemampuan, dan strategi meta praktis.
+
+---
+
+## Gambaran Lengkap Event Bee yang Di-rework
+
+Event bee berfungsi sebagai tulang punggung dari arketipe hive khusus. Pembaruan ekstensif telah merancang ulang bagaimana statistik dasar, penskalaan kemampuan, dan pemicu konversi pasif mereka bekerja selama field boost aktif.
+
+```
++------------------+------------------------------------+------------------------------------+
+| Tipe Lebah       | Mekanik Lama / Baseline            | Mekanik Rework / Pembaruan         |
++------------------+------------------------------------+------------------------------------+
+| Crimson Bee      | Polen Pulse tetap; +15% Red Pollen | +10% Polen Pulse per level;        |
+|                  | (Gifted)                           | Konversi 25% Convert Amount lebah  |
+| Cobalt Bee       | Polen Pulse tetap; +15% Blue Pollen| +10% Polen Pulse per level;        |
+|                  | (Gifted)                           | Konversi 25% Convert Amount lebah  |
+| Digital Bee      | Rasio duplikasi token tetap &      | Map Corruption berskala level;     |
+|                  | jeda Smile tetap                   | penyesuaian jeda Smile (14-22 dtk) |
+| Festive Bee      | +15% Red Pollen (Gifted)           | x1.25 Convert Rate di Hive         |
+| Photon Bee       | x2 White Pollen (Gifted Beamstorm) | x3 White Pollen (Gifted Beamstorm);|
+|                  |                                    | 20% Instant Conversion dasar       |
+| Puppy Bee        | Bond lebih rendah; mekanik fetch   | +10% Movespeed, +50% Gather Amount |
+|                  | statis                             | 10 dtk (+1 dtk/lvl); 2x hasil bond |
+| Tabby Bee        | Penskalaan statis Tabby Love maks  | Tabby Love maks memberi +1% Crit,  |
+|                  |                                    | +25% Crit Power (+1% Super Crit)   |
+| Windy Bee        | Durasi Rain Cloud +5 dtk/lvl       | Durasi Rain Cloud +10 dtk/lvl;     |
+|                  |                                    | Cloud memberi 10-20% Unique IC     |
++------------------+------------------------------------+------------------------------------+
+```
+
+### Sinkronisasi Crimson dan Cobalt Bee
+Duet pahlawan super ini menerima perbaikan bug penting dan peningkatan penskalaan. Pulse khas mereka kini berskala dengan tepat mengikuti level lebah (+10% polen per level) bersama pengganda polen Event Bee yang aktif. Selain itu, saat berstatus gifted, pulse mereka memicu konversi instan sebesar 25% dari Convert Amount masing-masing lebah yang terdampak, yang kemudian berlipat ganda dengan tumpukan field boost aktif. Kemampuan Bomb Sync mereka juga memberikan peningkatan +10% polen warna dan +10% Instant Conversion saat aktif.
+
+### Peningkatan Photon, Tabby, dan Puppy Bee
+Photon Bee mendapatkan 20% Instant Conversion bawaan pada semua tindakan pengumpulan dan kemampuan, sementara Beamstorm versi gifted kini memberikan pengganda x3 untuk White Pollen yang terkumpul. Batas potensi Tabby Bee meningkat signifikan: pemain yang mempertahankan Tabby Love maksimum menerima buff selama 10 detik (+1 detik per level lebah) yang memberikan +1% Critical Chance dan +25% Critical Power (ditambah +1% Super Crit Chance saat gifted). Puppy Love dari Puppy Bee kini memberikan peningkatan pergerakan dan pengumpulan aktif (+10% Bee Movespeed dan +50% Bee Gather Amount) di samping hasil bond yang digandakan.
+
+---
+
+## Penyeimbangan Ulang Mythic dan Legendary Bee
+
+Mythic bee menentukan strategi farming late-game, membuat pembaruan keseimbangannya sangat berdampak pada permainan tingkat tinggi.
+
+```
++------------------+---------------+--------------------+-----------------------------------+
+| Kelangkaan       | Nama Lebah    | Stat / Kemampuan   | Ringkasan Rework                  |
++------------------+---------------+--------------------+-----------------------------------+
+| Mythic           | Spicy Bee     | Convert Amount     | Base Convert naik menjadi 300;    |
+|                  |               | & Flame Fuel       | Flame Fuel berskala dg Field Boost|
+| Mythic           | Precise Bee   | Convert Amount     | Base Convert turun menjadi 80     |
+| Mythic           | Tadpole Bee   | Debuff Attack &    | Menghapus debuff attack x0.5;     |
+|                  |               | Bonus Gifted       | Gifted memberi +25% Durasi Bubble |
+| Mythic           | Buoyant Bee   | Attack & Tipe Bomb | Attack naik menjadi 4; memunculkan|
+|                  |               |                    | Blue Bomb alih-alih Blue Bomb+    |
+| Legendary        | Lion Bee      | Bonus Hive & Conv  | +5% Gifted Bee Pollen; base       |
+|                  |               |                    | Convert Amount ditingkatkan ke 180|
+| Legendary        | Demon Bee     | Instant Conversion | 10% IC dasar (20% jika Gifted);   |
+|                  | & Bonus Hive  | Bonus Gifted +20% Instant Bomb IC |
+| Legendary        | Diamond Bee   | Shimmering Honey   | Bonus madu berskala ke 25% +      |
+|                  |               |                    | 2.5% per level lebah              |
++------------------+---------------+--------------------+-----------------------------------+
+```
+
+### Mekanik Field: Sinergi Flame dan Bubble
+Pembaruan struktural pada objek di field secara langsung mengubah cara **lebah rework BSS** berinteraksi dengan elemen yang muncul:
+* **Flames:** Api yang dihasilkan lebah kini berskala +10% polen per level lebah dan menghasilkan damage pertarungan sebesar `10 + 25%` dari base attack lebah per detik. Dark Flames menghasilkan 50% damage lebih besar dibandingkan api standar.
+* **Bubbles:** Durasi dasar distandardisasi menjadi 4 detik, mendapatkan +5% polen per level lebah. Bonus gifted Tadpole Bee dialihkan menjadi +25% Bubble Duration untuk memperpanjang masa aktif gelembung berpenghasilan tinggi ini.
+
+---
+
+## Penyesuaian Rare, Epic, dan Common Bee
+
+Lebah tingkat bawah dan mid-game juga menerima penyeimbangan penting, terutama mengubah persentase aditif menjadi bonus multiplikatif atau memodifikasi kegunaan gifted mereka.
+
+```
++---------------+---------------+---------------------------+-------------------------------+
+| Tingkat Lebah | Nama Lebah    | Bonus Gifted Sebelumnya   | Bonus Gifted Baru / Diperbarui|
++---------------+---------------+---------------------------+-------------------------------+
+| Rare          | Bomber Bee    | +15% Bomb Pollen          | x1.1 Bomb Pollen              |
+| Rare          | Rad Bee       | +15% Red Pollen           | x1.1 Red Pollen               |
+| Rare          | Cool Bee      | +15% Blue Pollen          | x1.1 Blue Pollen              |
+| Rare          | Rascal Bee    | +30% Red Bomb Pollen      | x1.25 Red Bomb Pollen         |
+| Rare          | Hasty Bee     | +20% Player Movespeed     | +15% Player Movespeed         |
+| Rare          | Stubborn Bee  | +20% Token Lifespan       | +15% Ability Token Lifespan   |
+| Epic          | Rage Bee      | +1 Attack                 | +10% Bee Attack               |
+| Epic          | Bubble Bee    | +50% Bubble Pollen        | x1.25 Bubble Pollen           |
+| Epic          | Fire Bee      | +50% Flame Pollen         | x1.25 Flame Pollen            |
+| Epic          | Shocked Bee   | +20% White Pollen         | x1.1 White Pollen             |
+| Epic          | Frosty Bee    | +30% Blue Bomb Pollen     | x1.25 Blue Bomb Pollen        |
+| Epic          | Demo Bee      | +30% Buzz Bomb Pollen     | x1.25 Buzz Bomb Pollen        |
++---------------+---------------+---------------------------+-------------------------------+
+```
+
+Untuk catatan pembaruan resmi dan dokumentasi komunitas terverifikasi tentang mekanik kemampuan, kunjungi [Bee Swarm Simulator Wiki Updates Hub](https://bee-swarm-simulator.fandom.com/wiki/Updates).
+
+### Penyesuaian Base Attack pada Seluruh Lebah
+Untuk meningkatkan kecepatan membersihkan monster selama progres mid-game, Onett menerapkan peningkatan base attack flat sebesar +1 untuk berbagai jenis lebah:
+* **Event Bees:** Crimson, Cobalt, Vicious, Windy, Photon, Gummy
+* **Rare / Epic / Legendary Bees:** Brave, Rage, Riley, Bucko, Exhausted, Frosty, Honey, Lion
+
+Batas tumpukan Rage juga diperluas, memungkinkan hingga 4 tumpukan (naik dari 3) untuk meningkatkan burst serangan saat melawan bos seperti Coconut Crab dan Stump Snail.
+
+---
+
+## Strategi Membangun Hive dengan Lebah Rework
+
+Saat menata hive Anda berdasarkan kapabilitas **lebah rework BSS**, memilih kombinasi pengganda, konversi, dan mutasi yang tepat sangatlah krusial.
+
+```
++------------------+-----------------------+-----------------------+------------------------+
+| Arketipe Hive    | Lebah Rework Utama    | Fokus Statistik Utama | Mutasi yang Disarankan |
++------------------+-----------------------+-----------------------+------------------------+
+| Red Hive         | Spicy, Precise,       | Flame Pollen, Crit    | Critical Chance,       |
+| (Scorch-Flame)   | Crimson, Fire, Rad    | Power, Bee Attack     | Multiplicative Attack  |
+| Blue Hive        | Buoyant, Tadpole,     | Bubble Duration,      | Instant Conversion,    |
+| (Pop Bloat)      | Cobalt, Bubble, Cool  | Unique IC, Capacity   | Base Movespeed         |
+| White Hive       | Vector, Digital,      | Mark Gathering, Duped | Ability Rate,          |
+| (Vector-Gummy)   | Photon, Gummy, Lion   | Token Conversion      | Critical Chance        |
+| Mixed Hive       | Tabby, Festive,       | Balanced Pollen, Conv | Additive Convert,      |
+| (Progresi)       | Photon, Puppy, Vicious| Rate at Hive, Speed   | Base Gather Amount     |
++------------------+-----------------------+-----------------------+------------------------+
+```
+
+### Mengoptimalkan Unique Instant Conversion
+Salah satu mekanik terpenting yang berinteraksi dengan **lebah rework BSS** adalah **Unique Instant Conversion (Unique IC)**. Berbeda dari konversi aditif tradisional, Unique IC dihitung secara independen:
+
+$$\text{Effective Conversion} = 1 - (1 - \text{IC}_1) \times (1 - \text{IC}_2)$$
+
+Sebagai contoh, memiliki dua sumber Unique IC 50% yang terpisah akan menghasilkan 75% Instant Conversion efektif. Dengan Photon Bee, Demon Bee, awan Windy Bee, dan mutasi yang memberikan Unique IC secara langsung, swarm Anda dapat mengonversi muatan polen dalam jumlah besar langsung di field tanpa membuat tas punggung (backpack) Anda penuh seketika.
+
+### Prioritas Mutasi Teratas
+Dengan diperkenalkannya batas mutasi yang diperluas, memprioritaskan statistik pada **lebah rework BSS** utama Anda akan memberikan peningkatan performa yang nyata:
+1. **Critical Chance (1%–3%):** Tingkat teratas untuk lebah penyerang, pengumpul, dan kemampuan token.
+2. **Instant Conversion (8%–20%):** Sangat penting untuk farming di field dengan produksi tinggi.
+3. **Movespeed (2–6 dasar):** Memaksimalkan efisiensi pengumpulan kemampuan dan pembuatan token.
+4. **Convert Amount (+80 aditif maks):** Sinergi tinggi dengan pemicu pulse gifted Crimson dan Cobalt.
+
+---
+
+## Alur Kerja Langkah-demi-Langkah Menyeimbangkan Ulang Hive
+
+Ikuti panduan langkah demi langkah ini untuk memperbarui konfigurasi hive Anda setelah rebalance lebah besar-besaran:
+
+```
++------+--------------------------+---------------------------------------------------------+
+| Tahap| Tindakan                 | Tujuan Utama & Detail                                   |
++------+--------------------------+---------------------------------------------------------+
+| 1    | Audit Bonus Gifted       | Ganti lebah aditif flat dengan lebah multiplikatif yang |
+|      |                          | telah di-rework (cth., Bomber, Fire, Bubble).           |
+| 2    | Tingkatkan Sinergi Pulse | Jadikan Crimson dan Cobalt gifted untuk mengamankan     |
+|      |                          | penskalaan konversi pulse terkait tumpukan Field Boost. |
+| 3    | Maksimalkan Tabby Love   | Kumpulkan 1.000 token Tabby Love untuk mengaktifkan     |
+|      |                          | buff pasif Crit dan Super-Crit Power yang di-rework.    |
+| 4    | Re-roll Mutasi Kurang    | Gunakan Neonberry dan Bitterberry untuk mencari Critical|
+|      | Optimal                  | Chance atau Instant Conversion pada lebah pengumpul.    |
+| 5    | Sesuaikan Waktu Backpack | Uji laju pengisian tas di ladang farming utama Anda     |
+|      |                          | dan sesuaikan sumber Unique IC berdasarkan kebutuhan.   |
++------+--------------------------+---------------------------------------------------------+
+```
+
+Pengalaman pemain secara konsisten membuktikan bahwa mengoptimalkan lebah pengganda berstatus gifted sebelum berinvestasi besar-besaran pada duplikat mythic memberikan dorongan yang jauh lebih hemat biaya untuk pendapatan madu secara keseluruhan.
+
+---
+
+## Pertanyaan yang Sering Diajukan
+
+### Lebah rework BSS mana yang mendapatkan buff terbesar secara keseluruhan?
+Crimson Bee dan Cobalt Bee menerima beberapa buff paling substansial berkat formula pulse yang berskala dengan level dan pemicu konversi instan pada tumpukan field boost aktif. Photon Bee (dengan 20% Instant Conversion dasar dan x3 Gifted White Pollen) serta Tabby Bee (dengan bonus statistik Critical dan Super-Crit pada Tabby Love maksimal) juga memperoleh peningkatan nilai yang signifikan untuk late-game.
+
+### Bagaimana rework ini memengaruhi bonus gifted tipe bomb dan warna?
+Sebelumnya, lebah seperti Bomber, Rad, Cool, Fire, dan Bubble memberikan bonus persentase aditif (seperti +15% atau +50%). Rework mengubahnya menjadi statistik multiplikatif murni (seperti x1.1 atau x1.25), menghasilkan penskalaan yang jauh lebih kuat saat dikombinasikan dengan amulet endgame, beequip, dan field winds.
+
+### Apa keuntungan dari Unique Instant Conversion pada lebah yang di-rework?
+Unique Instant Conversion dihitung secara terpisah dari kumpulan instant conversion standar. Ini memungkinkan pemain yang menggunakan lebah seperti Demon Bee, Photon Bee, dan Windy Bee untuk mengonversi sebagian besar polen yang mereka kumpulkan pada setiap detiknya, memperpanjang durasi farming selama kombo boost field besar-besaran.
+
+### Apakah saya harus mempertahankan Puppy Bee setelah penyesuaian terbaru?
+Laporan komunitas dan pengujian pemain menunjukkan bahwa Puppy Bee kini jauh lebih berguna pasca-rework. Buff +10% Bee Movespeed dan +50% Bee Gather Amount dari Puppy Love memberikan utilitas tim jangka pendek yang sangat terasa, dan hasil bond yang digandakan sangat mempercepat peningkatan level hive Anda.

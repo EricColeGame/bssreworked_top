@@ -1,0 +1,227 @@
+export const metadata = {
+  title: "Panduan BSS Reworked Mechanics: Rincian Lengkap Matematika, Badge, dan Balon",
+  description: "Kuasai BSS reworked mechanics di Bee Swarm Simulator. Pelajari bagaimana formula serangan lebah, konversi balon, dan sistem badge mengoptimalkan hasil madu.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Menguasai matematika di balik Bee Swarm Simulator adalah cara tercepat untuk mengubah hive Anda dari perjuangan early-game menjadi kekuatan endgame. Memahami **BSS reworked mechanics** sangat penting jika Anda ingin mengoptimalkan madu per detik, mengalahkan bos tingkat tinggi, dan meningkatkan bonus hive Anda secara efisien. Dalam panduan komprehensif ini, kami akan menguraikan bagaimana **BSS reworked mechanics** yang diperbarui berinteraksi dengan perlengkapan (gear), sticker stack, penskalaan pertempuran, dan sistem konversi ladang sehingga Anda dapat membuat keputusan progres berbasis data.
+
+Baik Anda menjalankan hive khusus merah (red), biru (blue), atau putih (white), pembaruan modern telah memperkenalkan lapisan kerusakan yang rumit, buff kapasitas baru, dan aturan konversi tingkat lanjut yang harus dikuasai oleh setiap pemain.
+
+---
+
+## Rincian Formula Pertempuran: Cara Penskalaan Pengali Serangan Lebah
+
+Pertempuran lebah tidak lagi hanya tentang menaikkan level Vicious Bee Anda; ini bergantung pada perhitungan berlapis yang tepat. **BSS reworked mechanics** yang mengatur serangan lebah menghitung penambahan dasar (flat) terlebih dahulu sebelum menerapkan pengali persentase. 
+
+```
+Total Serangan = (Serangan Dasar Lebah + Bonus Flat Tambahan) × (1 + Pengali Serangan Lebah)
+```
+
+Setiap lebah memiliki nilai serangan awal bawaan yang berkisar antara 0 (Baby Bee) dan 10 (Lion Bee). Meskipun Baby Bee dapat menerima buff serangan, lebah ini tetap tidak dapat menyerang musuh.
+
+```
++-----------------------------------------------------------------------------------+
+|                        ALUR PERHITUNGAN SERANGAN LEBAH                            |
+|                                                                                   |
+|  [Serangan Dasar (0-10)] + [Bonus Flat: Guard/Belt/Amulet/Rage Token]             |
+|                                         │                                         |
+|                                         ▼                                         |
+|                           [Total Serangan Perantara]                              |
+|                                         │                                         |
+|                                         ▼                                         |
+|     × [Pengali Persentase: Buff Gifted/Stinger/Nectar/Bonus Sticker]              |
+|                                         │                                         |
+|                                         ▼                                         |
+|       [Hit Dasar Final] ───► Menerapkan [Critical Power] / [Super-Crit Mult]      |
++-----------------------------------------------------------------------------------+
+```
+
+### Bonus Stat Flat Tambahan
+
+Statistik aditif dibagi ke dalam serangan umum dan bonus tipe warna tertentu (Colorless, Red, dan Blue).
+
+| Sumber / Perlengkapan | Kategori Stat | Nilai Flat yang Diberikan | Kondisi Penerapan |
+| :--- | :--- | :--- | :--- |
+| **Rage Tokens** | Serangan Lebah Reguler | +1 per token (Maks +4) | Stack buff aktif |
+| **Gifted Brave Bee** | Serangan Lebah Reguler | +1 Serangan Lebah | Bonus Hive Permanen |
+| **Cobalt Guard** | Serangan Lebah Biru | +3 Serangan Lebah Biru | Pasif terpasang |
+| **Crimson Guard** | Serangan Lebah Merah | +3 Serangan Lebah Merah | Pasif terpasang |
+| **Petal Belt / Honeycomb Belt** | Serangan Lebah Colorless | +1 Serangan Colorless | Pasif terpasang |
+| **Brave Guard** | Serangan Lebah Colorless | +1 Serangan Colorless | Pasif terpasang |
+| **King Beetle Amulet** | Serangan Merah atau Biru | +1 Serangan | Tergantung roll |
+| **Cog Amulet (Gold+)** | Serangan Merah atau Biru | +1 hingga +2 Serangan | Tergantung roll |
+| **Cop and Robber Sticker** | Serangan Lebah Biru | +0.5 Serangan Lebah Biru | Ditambahkan ke Sticker Stack |
+
+### Pengali Serangan dan Pengubah Penskalaan
+
+Setelah penambahan flat dijumlahkan, pengali meningkatkan output tim secara drastis selama siklus gameplay aktif.
+
+| Sumber Pengali | Nilai Persentase | Durasi / Tipe | Sifat Penumpukan (Stacking) |
+| :--- | :--- | :--- | :--- |
+| **Stinger Item** | +50% (Pengali x1.5) | 30 Detik | Aktif Konsumsi |
+| **Gifted Rage Bee** | +10% Serangan Lebah | Permanen | Bonus Hive |
+| **Status Gifted (Individu)**| +50% (Pengali x1.5) | Permanen | Berlaku untuk diri sendiri saja |
+| **Emergency Coconut Shield** | +25% (Pengali x1.25)| 10 Detik | Terpicu saat terkena hit |
+| **Coconut Combo** | Hingga +50% Serangan | Aktif (100 Stack) | Kombo pengumpulan ladang |
+| **Invigorating Nectar** | +1% hingga +10% Serangan | Berbasis durasi | Kepenuhan nektar |
+| **Cyan Hilted Sword Sticker** | +2% Serangan Lebah | Permanen | Sticker Stack |
+
+Untuk menguji build Anda dan menjelajahi pembaruan platform, kunjungi halaman resmi [Roblox Bee Swarm Simulator Page](https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator) untuk melihat event saat ini dan rotasi patch.
+
+---
+
+## Pengubah Pertempuran Robo Bear Challenge
+
+Di dalam Robo Bear Challenge, peningkatan sistem sementara sangat mengubah cara lebah Anda menghadapi Cogmower dan Mechsquito. Memahami **BSS reworked mechanics** ini mencegah Anda membeli peningkatan yang justru dapat mengurangi efektivitas damage kawanan lebah Anda.
+
+| Nama Upgrade | Tingkat Kelangkaan | Efek Positif | Kerugian / Catatan |
+| :--- | :--- | :--- | :--- |
+| **Sharpen** | Common | Dimulai dari x1.2 Serangan (Maks x3.0) | Membutuhkan 10 tingkat upgrade |
+| **Blue Screen** | Rare | +3% Serangan per stack Blue Boost (Maks x1.3) | Memerlukan menjaga 10x Blue Boost |
+| **Equalize** | Rare | +1 Serangan Flat, x1.25 Serangan Ungifted | Terbaik untuk lebah tantangan un-gifted |
+| **Saturate** | Rare | x1.25 hingga x1.75 Serangan Blue/Colorless | **Mengurangi Serangan Red** (x0.8 hingga x0.4) |
+| **SSD: White** | Rare | Peningkatan Kapasitas | **Menurunkan Serangan Lebah** (x0.8 hingga x0.6) |
+| **Malware** | Epic | +3 hingga +9 Serangan Lebah Flat | 3 tingkat upgrade |
+| **Inject** | Epic | +2 Blue, +1 Colorless, x1.25 Impale Dmg | Sangat baik untuk pertarungan berbasis Spike |
+| **NFT** | Epic | Ekstra generasi Cog | **Mengurangi -3 Serangan Lebah Flat** |
+| **Bluetooth** | Legendary | x2.0 Serangan Lebah Biru | Bonus masif untuk build Blue |
+| **Codec** | Legendary | Konversi Putih masif | **Menurunkan Serangan Lebah** (Pengali x0.8) |
+
+---
+
+## Mekanik Balon dan Siklus Konversi Hive
+
+Balon merupakan salah satu sistem pengumpulan dan konversi paling penting di Bee Swarm Simulator. Balon melayang di atas ladang, menyerap serbuk sari (pollen) yang dikumpulkan dalam radius 5 petak sebelum membawanya langsung ke hive Anda.
+
+```
++-----------------------------------------------------------------------------------+
+|                           SIKLUS BALON LADANG KE HIVE                             |
+|                                                                                   |
+|  [Pengumpulan Ladang] ──► [Balon Ladang Menyerap Pollen (Radius 5 petak)]         |
+|                                         │                                         |
+|                                         ▼                                         |
+|                           [Buff Balloon Aura: Hingga x10]                         |
+|                             (+20% Honey Dari Token)                               |
+|                                         │                                         |
+|                                         ▼                                         |
+|                         [Balon Kembali ke Pangkalan Hive]                         |
+|                                         │                                         |
+|                                         ▼                                         |
+|                          [Membentuk "Hive Balloon" Utama]                         |
+|                                         │                                         |
+|                                         ▼                                         |
+|             [Konversi Memberikan Balloon Blessing (Hingga x100 Stack)]            |
+|                   (+300% Kapasitas / +150% Honey di Hive)                         |
++-----------------------------------------------------------------------------------+
+```
+
+### Perbandingan Jenis Balon Ladang
+
+Pemain dapat memanggil balon item konsumsi (Pink, Red, White, Black) atau menghasilkan balon dinamis melalui kemampuan seperti *Inflate Balloons* milik Buoyant Bee.
+
+| Jenis Balon | Batas Ladang Aktif | Pengali Kapasitas Pollen | Masa Hidup di Ladang | Perolehan Utama |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pink Balloon** | 1 per pemain | 1.0x Kapasitas Ransel Pemain | 3 Menit | Mob Drop / Quest |
+| **Red Balloon** | 1 per pemain | 5.0x Kapasitas Ransel Pemain | 3 Menit | Mob Drop / Quest |
+| **White Balloon** | 1 per pemain | 10.0x Kapasitas Ransel Pemain | 5 Menit | Mob Drop / Quest |
+| **Black Balloon** | 1 per pemain | 25.0x Kapasitas Ransel Pemain | 5 Menit | Mob Drop / Memory Match |
+| **Blue Balloon** | Tak Terbatas | ~0.167x Kapasitas Ransel | 20dtk (+2dtk per level lebah) | Kemampuan Buoyant Bee |
+| **Gold Balloon** | Tak Terbatas | 1.25x Kapasitas Blue Balloon | 20dtk (+2dtk per level lebah) | Gifted Buoyant / Surprise Party |
+
+### Penyusutan Hive Balloon dan Balloon Blessing
+
+Ketika balon ladang kembali, mereka bergabung menjadi Hive Balloon pusat yang tergantung di atas pangkalan Anda. Mengonversi pollen ini memberi Anda buff **Balloon Blessing**:
+
+* **Penskalaan Maksimum:** Mengumpulkan hingga 10 Triliun pollen yang tersimpan akan mencapai batas maksimum **x100 Balloon Blessing**, memberikan **x4 Kapasitas** dan **x2.5 Madu di Hive**.
+* **Mekanik Penyusutan (Depletion):** Pollen di dalam Hive Balloon terus menurun seiring waktu. Jika balon Anda melebihi 100x kapasitas ransel, isi balon akan menyusut hingga 99,99% dalam kurun waktu 10 menit. Balon dengan kapasitas sedang menyusut pada tingkat stabil sekitar 20% per jam.
+* **Prioritas Konversi:** Lebah akan mengosongkan seluruh isi ransel Anda terlebih dahulu sebelum mulai mengonversi Hive Balloon.
+
+---
+
+## Penskalaan Akun Permanen: Badge dan Ambang Batas
+
+Badge memberikan buff permanen ke seluruh akun yang membentuk dasar dari semua penskalaan late-game. Tidak seperti item konsumsi, badge non-event meningkatkan stat seperti Instant Conversion, Field Capacity, dan Critical Power secara permanen.
+
+```
++-----------------------------------------------------------------------------------+
+|                             TINGKATAN PROGRES BADGE                               |
+|                                                                                   |
+|  [Pangkat Cadet] ───► [Pangkat Hotshot] ───► [Pangkat Ace] ───► [Pangkat GM]      |
+|    (Buff Tier 1)         (Buff Tier 2)         (Buff Tier 3)    (Buff Tier Maks)  |
+|                                                                                   |
+|  *Catatan: Meraih tingkat lebih tinggi menimpa buff lama; perk badge tidak stack. *|
++-----------------------------------------------------------------------------------+
+```
+
+### Hadiah Badge Ladang & Aktivitas Penting
+
+| Kategori Badge | Persyaratan Cadet | Hadiah Permanen Cadet | Persyaratan Hotshot | Hadiah Permanen Hotshot |
+| :--- | :--- | :--- | :--- | :--- |
+| **Honey Badge** | 1 Juta Madu | x1.3 Convert Rate | 10 Juta Madu | x1.6 Convert Rate |
+| **Quest Badge** | 10 Quest | x1.25 Kapasitas | 50 Quest | x1.5 Kapasitas |
+| **Battle Badge** | 100 Battle Point | +10% Critical Power | 1.000 Battle Point | +20% Critical Power |
+| **Goo Badge** | 500k Goo | +2% Honey Per Pollen | 5M Goo *(Buka Lair)* | +4% Honey Per Pollen |
+| **Sticker Stack** | 25 Sticker | +5% Bee Gather Pollen | 50 Sticker | +10% Bee Gather Pollen |
+| **Sunflower** | 250k Pollen | +10% Kapasitas | 2.5M Pollen | +20% Kapasitas |
+| **Mushroom** | 250k Pollen | +3% Instant Red Convert | 2.5M Pollen | +6% Instant Red Convert |
+| **Pine Tree** | 250k Pollen | +5% Blue Field Capacity | 2.5M Pollen | +10% Blue Field Capacity |
+| **Clover** | 250k Pollen | +10% Loot Luck | 2.5M Pollen | +20% Loot Luck |
+
+### Pencapaian Badge Khusus dan Akses Area
+
+1. **Gummy Bear’s Lair:** Membutuhkan pencapaian **Goo Hotshot Badge** (5.000.000 Goo terkumpul) sebelum Gummy Bear memberikan izin akses.
+2. **Badge Bearer's Guild:** Membutuhkan minimal **15 Badge** dari peringkat apa pun untuk memasuki gerbang depan, dan setidaknya **1 Ace Badge** untuk mengakses ruang belakang bagian dalam.
+3. **Resource Dispenser:** Coconut Dispenser menskalakan hasil drop berdasarkan peringkat Coconut Badge Anda, sementara Glue Dispenser mengeluarkan jumlah lebih tinggi yang disesuaikan dengan peringkat Goo Badge Anda.
+
+---
+
+## Siklus Lingkungan dan Spawn Berwaktu
+
+Siklus Siang/Malam mengatur kemunculan mob langka, probabilitas sprout, dan interaksi jalur rahasia.
+
+| Fase | Durasi | Efek Suasana | Spawn Khusus & Peluang | Aturan Lingkungan |
+| :--- | :--- | :--- | :--- | :--- |
+| **Siang Hari** | 10–30 mnt (~rata-rata 20 mnt) | Pencahayaan dan soundtrack standar | Waktu Respawn Mob Normal | Tabel Sprout Standar |
+| **Malam Hari**| Tepat 2m 35d | Langit gelap; memutar lagu *Mountaincall* | • Kemunculan Rogue Vicious Bee melonjak<br>• Moon Sprout (60% peluang muncul)<br>• Firefly spawn di 6 ladang | Platform Moon Amulet memadat, membuka jalan ke Diamond Mask & Memory Match |
+
+Firefly berhenti di ladang Rose, Cactus, Pineapple, Spider, Strawberry, dan Bamboo hingga 3 kali per malam. Membersihkan semua firefly dari kelompok ladang akan menghasilkan token hadiah instan, termasuk Moon Charm, Honey Token, dan buff ladang.
+
+---
+
+## Membangun Hive Strategis dengan BSS Reworked Mechanics
+
+Untuk memaksimalkan sistem yang diperbarui di Bee Swarm Simulator, koordinasikan perlengkapan, sticker, dan tipe lebah Anda di sekitar siklus pengali yang padu daripada menumpuk stat secara acak.
+
+```
++-----------------------------------------------------------------------------------+
+|                            ALUR PROGRES OPTIMAL                                   |
++-----------------------------------------------------------------------------------+
+|  1. DAMAGE DASAR: Dapatkan Crimson/Cobalt Guard & kumpulkan item flat +Serangan   |
+|  2. PENGALI: Jadikan gifted lebah kunci (Rage, Brave) & pasang Sticker Serangan   |
+|  3. KONVERSI: Rotasikan balon ladang untuk menjaga buff Balloon Aura 10x aktif    |
+|  4. PENYIMPANAN: Konversi Hive Balloon berkala guna menjaga 100x Balloon Blessing |
+|  5. PENCAPAIAN: Kejar Badge Goo & Hotshot Ladang untuk membuka zona akhir         |
++-----------------------------------------------------------------------------------+
+```
+
+1. **Prioritaskan Penambahan Flat di Awal:** Karena pengali melipatgandakan serangan dasar akhir Anda, item yang memberikan flat +Attack (seperti Crimson/Cobalt Guards atau Gifted Brave Bee) memberikan nilai yang jauh lebih besar di awal daripada buff persentase murni.
+2. **Pertahankan Balloon Aura:** Menurut laporan komunitas dan pengalaman pemain veteran, mempertahankan buff Balloon Aura 10x selama masa boosting memberikan peningkatan madu substansial sebesar +20% dari pengumpulan token.
+3. **Pantau Penyusutan Hive Balloon:** Hindari mengisi Hive Balloon melebihi apa yang dapat dikonversi oleh hive Anda dalam waktu satu jam. Mengonversi sebelum memulai grinding ladang yang intens akan menjaga Balloon Blessing Anda tetap aktif di tingkat maksimum.
+
+---
+
+## Pertanyaan yang Sering Diajukan (FAQ)
+
+### Apa saja BSS reworked mechanics terpenting yang harus dipelajari terlebih dahulu?
+**BSS reworked mechanics** yang paling penting untuk dipahami adalah kalkulasi pertempuran (penambahan flat diterapkan sebelum pengali) dan siklus konversi Balloon Blessing. Berfokus pada kedua aspek ini memastikan pembersihan mob yang cepat dan memaksimalkan konversi madu Anda selama boost ladang besar.
+
+### Apakah bonus stat badge bertumpuk (stack) saat mencapai peringkat yang lebih tinggi?
+Tidak. Saat Anda meningkatkan badge dari Cadet ke Hotshot, Ace, Master, atau Grandmaster, bonus stat yang baru akan menimpa bonus dari peringkat sebelumnya, bukan menambahkannya.
+
+### Bagaimana cara kerja sistem penyusutan (decay) Balloon Blessing?
+Hive Balloon perlahan-lahan menyusut seiring waktu untuk mencegah penyimpanan pollen tanpa batas. Pengurangan dasar dimulai sekitar 20% per jam untuk balon berukuran wajar, tetapi balon yang menampung lebih dari 100x kapasitas ransel maksimal Anda akan menyusut dengan cepat hingga 99,99% dalam kurun waktu 10 menit.
+
+### Bisakah Baby Bee menghasilkan damage serangan jika ditingkatkan dengan perlengkapan flat attack?
+Tidak. Meskipun perlengkapan flat attack dan sticker secara teknis meningkatkan statistik serangan Baby Bee di atas kertas, Baby Bee memiliki batasan serangan bawaan dan tidak akan mengeluarkan stinger atau menargetkan mob dalam pertempuran.

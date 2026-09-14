@@ -1,0 +1,185 @@
+export const metadata = {
+  title: "Abejas Reworkeadas de BSS: Guía Completa de Cambios de Balance y Estadísticas",
+  description: "Explora el desglose exhaustivo de las abejas reworkeadas de BSS, que incluye bonificaciones de gifted, rebalanceos de habilidades, estadísticas de conversión y las mejores composiciones meta de colmenas.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Dominar tu colmena en Bee Swarm Simulator requiere mantenerse al día con la forma en que evolucionan las mecánicas de habilidades, los valores de los tokens y las sinergias entre abejas a lo largo del tiempo. Comprender los ajustes de balance realizados en las **abejas reworkeadas de BSS** es esencial para optimizar las rutas de recolección de polen, superar desafíos de alto nivel y maximizar la producción de miel. Cuando los desarrolladores implementan actualizaciones masivas de estadísticas y rediseños de habilidades, saber qué **abejas reworkeadas de BSS** ganaron más valor garantiza que no desperdicies valiosas Star Treats, Royal Jellies o mejoras de drives en ranuras de colmena poco óptimas.
+
+Ya sea que tengas una colmena especializada Azul, Roja o Blanca, o que prefieras una composición mixta y flexible, los reworks importantes de abejas alteran fundamentalmente los umbrales de combate y las tasas de conversión instantánea. A continuación, desglosamos todos los ajustes principales de las abejas, las bonificaciones de colmena gifted actualizadas, las mecánicas de escalado de habilidades y las estrategias prácticas del meta.
+
+---
+
+## Resumen Completo de Abejas de Evento Reworkeadas
+
+Las abejas de evento sirven como la columna vertebral de los arquetipos de colmenas especializadas. Actualizaciones extensas rediseñaron el comportamiento de sus estadísticas base, el escalado de habilidades y los activadores de conversión pasiva durante los boosts activos en el campo.
+
+```
++------------------+------------------------------------+------------------------------------+
+| Tipo de Abeja    | Mecánica Antigua / Base            | Mecánica Reworkeada / Actualización|
++------------------+------------------------------------+------------------------------------+
+| Crimson Bee      | Polen de Pulse plano; +15% Polen   | +10% Polen de Pulse por nivel;     |
+|                  | Rojo (Gifted)                      | 25% conversión de Convert Amount   |
+| Cobalt Bee       | Polen de Pulse plano; +15% Polen   | +10% Polen de Pulse por nivel;     |
+|                  | Azul (Gifted)                      | 25% conversión de Convert Amount   |
+| Digital Bee      | Tasa plana de duplicación de tokens| Corrupción de mapa escala por nivel|
+|                  | y retraso fijo de Smile            | retraso de Smile ajustado (14-22s) |
+| Festive Bee      | +15% Polen Rojo (Gifted)           | x1.25 Tasa de Conversión en Colmena|
+| Photon Bee       | x2 Polen Blanco (Gifted Beamstorm) | x3 Polen Blanco (Gifted Beamstorm);|
+|                  |                                    | 20% Conversión Instantánea base    |
+| Puppy Bee        | Menor vínculo; mecánica fija traer | +10% Vel. Mov., +50% Cant. Recolec.|
+|                  | la pelota                          | por 10s (+1s/nv); doble vínculo    |
+| Tabby Bee        | Escalado estático de Tabby Love max| Tabby Love max otorga +1% Crítico, |
+|                  |                                    | +25% Poder Crít (+1% Super Crít)   |
+| Windy Bee        | Duración Rain Cloud +5s/nv         | Duración Rain Cloud +10s/nv;       |
+|                  |                                    | Nubes dan 10-20% Unique IC         |
++------------------+------------------------------------+------------------------------------+
+```
+
+### Sincronización de Crimson y Cobalt Bee
+El dúo de superhéroes recibió correcciones de errores cruciales y mejoras en su escalado. Sus pulsos característicos ahora escalan correctamente con el nivel de la abeja (+10% de polen por nivel), junto con los multiplicadores activos de polen de Abejas de Evento. Además, al estar gifted, sus pulsos activan una conversión instantánea equivalente al 25% del Convert Amount de cada abeja afectada, multiplicándose aún más con las acumulaciones de field boosts activos. Sus habilidades de Bomb Sync también proporcionan un aumento del +10% de polen de su respectivo color y un +10% de Conversión Instantánea mientras están activas.
+
+### Mejoras para Photon, Tabby y Puppy Bee
+Photon Bee obtuvo un 20% de Conversión Instantánea nativa en todas sus acciones de recolección y habilidades, mientras que su Beamstorm al estar gifted ahora ofrece un multiplicador de x3 en el Polen Blanco recolectado. El techo de potencial de Tabby Bee aumentó considerablemente: los jugadores que mantienen el máximo de Tabby Love reciben una mejora de 10 segundos (+1s por nivel de abeja) que otorga +1% de Probabilidad Crítica y +25% de Poder Crítico (además de +1% de Probabilidad de Super Crítico al estar gifted). El Puppy Love de Puppy Bee ahora proporciona un potenciador activo de movimiento y recolección (+10% de Velocidad de Movimiento de Abejas y +50% de Cantidad de Recolección de Abejas), además de duplicar las recompensas de vínculo.
+
+---
+
+## Rebalanceos de Abejas Míticas y Legendarias
+
+Las abejas míticas dictan las estrategias de farmeo en el juego tardío, lo que hace que sus actualizaciones de balance sean especialmente determinantes para el juego de alto nivel.
+
+```
++------------------+---------------+--------------------+-----------------------------------+
+| Rareza de Abeja  | Nombre Abeja  | Estadística / Hab. | Resumen del Rework                |
++------------------+---------------+--------------------+-----------------------------------+
+| Mítica           | Spicy Bee     | Convert Amount     | Conversión base aumentada a 300;  |
+|                  |               | y Flame Fuel       | Flame Fuel escala con Field Boost |
+| Mítica           | Precise Bee   | Convert Amount     | Conversión base reducida a 80     |
+| Mítica           | Tadpole Bee   | Debuff de Ataque y | Se eliminó el debuff de ataque x0.5|
+|                  |               | Bonificación Gifted| Gifted da +25% Duración de Burbuja|
+| Mítica           | Buoyant Bee   | Ataque y Tipo Bomba| Ataque aumentado a 4; genera      |
+|                  |               |                    | Blue Bomb en vez de Blue Bomb+    |
+| Legendaria       | Lion Bee      | Bonus Colmena/Conv | +5% Polen de Abeja Gifted; base   |
+|                  |               |                    | de Convert Amount bufada a 180    |
+| Legendaria       | Demon Bee     | Conversión Instant.| 10% IC base (20% si es Gifted);   |
+|                  |               | y Bonus de Colmena | Bonus Gifted +20% IC Bomba Instant|
+| Legendaria       | Diamond Bee   | Shimmering Honey   | Bono de miel escalado a 25% +     |
+|                  |               |                    | 2.5% por nivel de abeja           |
++------------------+---------------+--------------------+-----------------------------------+
+```
+
+### Mecánicas de Campo: Sinergias de Llamas y Burbujas
+Las actualizaciones estructurales a los elementos del campo transformaron directamente la forma en que las **abejas reworkeadas de BSS** interactúan con los objetos generados:
+* **Llamas (Flames):** Las llamas generadas por las abejas ahora escalan a +10% de polen por nivel de abeja e infligen daño de combate equivalente a `10 + 25%` del ataque base de la abeja por segundo. Las Dark Flames causan un 50% más de daño que las llamas estándar.
+* **Burbujas (Bubbles):** La duración base se estandarizó en 4 segundos, obteniendo un +5% de polen por nivel de abeja. La bonificación gifted de Tadpole Bee pasó a ser +25% de Duración de Burbuja para extender la vida útil de estas burbujas de alto rendimiento.
+
+---
+
+## Ajustes para Abejas Raras, Épicas y Comunes
+
+Las abejas de niveles inferiores y de juego medio también recibieron rebalanceos esenciales, transformando principalmente porcentajes aditivos en bonificaciones multiplicativas o modificando su utilidad gifted.
+
+```
++---------------+---------------+---------------------------+-------------------------------+
+| Nivel de Abeja| Nombre Abeja  | Bonus Gifted Anterior     | Bonus Gifted Nuevo / Actualizado|
++---------------+---------------+---------------------------+-------------------------------+
+| Rara          | Bomber Bee    | +15% Polen de Bombas      | x1.1 Polen de Bombas          |
+| Rara          | Rad Bee       | +15% Polen Rojo           | x1.1 Polen Rojo               |
+| Rara          | Cool Bee      | +15% Polen Azul           | x1.1 Polen Azul               |
+| Rara          | Rascal Bee    | +30% Polen de Bomba Roja  | x1.25 Polen de Bomba Roja     |
+| Rara          | Hasty Bee     | +20% Vel. Mov. Jugador    | +15% Vel. Mov. Jugador        |
+| Rara          | Stubborn Bee  | +20% Vida útil de Tokens  | +15% Vida útil Tokens Habilidad|
+| Épica         | Rage Bee      | +1 Ataque                 | +10% Ataque de Abejas         |
+| Épica         | Bubble Bee    | +50% Polen de Burbuja     | x1.25 Polen de Burbuja        |
+| Épica         | Fire Bee      | +50% Polen de Llama       | x1.25 Polen de Llama          |
+| Épica         | Shocked Bee   | +20% Polen Blanco         | x1.1 Polen Blanco             |
+| Épica         | Frosty Bee    | +30% Polen de Bomba Azul  | x1.25 Polen de Bomba Azul     |
+| Épica         | Demo Bee      | +30% Polen de Buzz Bomb   | x1.25 Polen de Buzz Bomb      |
++---------------+---------------+---------------------------+-------------------------------+
+```
+
+Para obtener registros de parches oficiales y documentación comunitaria verificada sobre las mecánicas de habilidades, consulta el [Bee Swarm Simulator Wiki Updates Hub](https://bee-swarm-simulator.fandom.com/wiki/Updates).
+
+### Ajustes de Ataque Base en Todo el Reparto
+Para mejorar la velocidad de eliminación de criaturas a lo largo de la progresión del juego medio, Onett implementó un aumento plano de +1 en el ataque base para una amplia variedad de abejas:
+* **Abejas de Evento:** Crimson, Cobalt, Vicious, Windy, Photon, Gummy
+* **Abejas Raras / Épicas / Legendarias:** Brave, Rage, Riley, Bucko, Exhausted, Frosty, Honey, Lion
+
+Las acumulaciones de Rage también se ampliaron, permitiendo hasta 4 acumulaciones (en lugar de 3) para ráfagas de combate mejoradas contra jefes como el Coconut Crab y el Stump Snail.
+
+---
+
+## Estrategias de Construcción de Colmenas con Abejas Reworkeadas
+
+Al organizar tu colmena en torno a las capacidades de las **abejas reworkeadas de BSS**, elegir la combinación adecuada de multiplicadores, conversiones y mutaciones resulta crítico.
+
+```
++------------------+-----------------------+-----------------------+------------------------+
+| Arquetipo Colmena| Abejas Reworkeadas Clave| Enfoque Estadístico | Mutaciones Recomendadas|
++------------------+-----------------------+-----------------------+------------------------+
+| Colmena Roja     | Spicy, Precise,       | Polen de Llama, Poder | Probabilidad Crítica,  |
+| (Scorch-Flame)   | Crimson, Fire, Rad    | Crítico, Ataque Abeja | Ataque Multiplicativo  |
+| Colmena Azul     | Buoyant, Tadpole,     | Duración de Burbuja,  | Conversión Instantánea,|
+| (Pop Bloat)      | Cobalt, Bubble, Cool  | Unique IC, Capacidad  | Velocidad Mov. Base    |
+| Colmena Blanca   | Vector, Digital,      | Recolección de Marks, | Tasa de Habilidad,     |
+| (Vector-Gummy)   | Photon, Gummy, Lion   | Conv. Tokens Duplicad.| Probabilidad Crítica   |
+| Colmena Mixta    | Tabby, Festive,       | Polen Balanceado, Tasa| Conversión Aditiva,    |
+| (Progresión)     | Photon, Puppy, Vicious| Conv. Colmena, Vel Mov| Cant. Recolección Base |
++------------------+-----------------------+-----------------------+------------------------+
+```
+
+### Optimización de la Conversión Instantánea Única
+Una de las mecánicas más importantes que interactúan con las **abejas reworkeadas de BSS** es la **Conversión Instantánea Única (Unique IC)**. A diferencia de la conversión aditiva tradicional, la Unique IC se aplica de manera independiente:
+
+$$\text{Conversión Efectiva} = 1 - (1 - \text{IC}_1) \times (1 - \text{IC}_2)$$
+
+Por ejemplo, tener dos fuentes separadas de 50% de Unique IC da como resultado una Conversión Instantánea efectiva del 75%. Con Photon Bee, Demon Bee, las nubes de Windy Bee y mutaciones que proporcionan Unique IC de forma directa, tu enjambre puede convertir grandes cargas de polen en el campo sin llenar tu mochila al instante.
+
+### Prioridades Principales de Mutaciones
+Con la introducción de límites de mutación ampliados, priorizar estadísticas en tus **abejas reworkeadas de BSS** clave genera mejoras notables en el rendimiento:
+1. **Probabilidad Crítica (1%–3%):** De primer nivel para abejas de ataque, abejas recolectoras y habilidades de tokens.
+2. **Conversión Instantánea (8%–20%):** Esencial para el farmeo de alta producción en el campo.
+3. **Velocidad de Movimiento (2–6 base):** Maximiza la recolección de habilidades y la eficiencia de generación de tokens.
+4. **Convert Amount (+80 máximo aditivo):** Alta sinergia con las activaciones de pulso gifted de Crimson y Cobalt.
+
+---
+
+## Flujo de Trabajo Paso a Paso para el Rebalanceo de la Colmena
+
+Sigue esta lista de verificación paso a paso para actualizar la configuración de tu colmena tras los principales rebalanceos de abejas:
+
+```
++------+--------------------------+---------------------------------------------------------+
+| Paso | Acción                   | Objetivos Clave y Detalles                              |
++------+--------------------------+---------------------------------------------------------+
+| 1    | Auditar Bonos Gifted     | Reemplaza comodines aditivos planos por abejas          |
+|      |                          | multiplicativas reworkeadas (ej. Bomber, Fire, Bubble). |
+| 2    | Mejorar Sinergias Pulso  | Haz gifted a Crimson y Cobalt para asegurar escalado de |
+|      |                          | conversión de pulso vinculado a stacks de Field Boost.  |
+| 3    | Maximizar Tabby Love     | Alcanza 1,000 tokens de Tabby Love para activar los     |
+|      |                          | buffs pasivos reworkeados de Crítico y Super Crítico.   |
+| 4    | Re-rollear Mutaciones    | Roollea Neonberries y Bitterberries buscando Crítico o   |
+|      | Subóptimas               | Conversión Instantánea en abejas recolectoras clave.    |
+| 5    | Ajustar Tiempo Mochila   | Prueba las tasas de llenado de mochila en tu campo      |
+|      |                          | principal y ajusta las fuentes de Unique IC acordemente.|
++------+--------------------------+---------------------------------------------------------+
+```
+
+Las experiencias de los jugadores demuestran de forma constante que optimizar las abejas con multiplicadores gifted antes de invertir excesivamente en duplicados míticos proporciona un aumento mucho más rentable en la generación general de miel.
+
+---
+
+## Preguntas Frecuentes
+
+### ¿Cuáles abejas reworkeadas de BSS recibieron los mayores bufos generales?
+Crimson y Cobalt Bees recibieron algunas de las mejoras más sustanciales debido a las fórmulas de pulso que escalan por nivel y a las activaciones de conversión instantánea basadas en las acumulaciones de field boosts activos. Photon Bee (con un 20% de Conversión Instantánea base y x3 de Polen Blanco Gifted) y Tabby Bee (con estadísticas adicionales de Crítico y Super Crítico al alcanzar el máximo de Tabby Love) también adquirieron un valor significativo en el juego tardío.
+
+### ¿Cómo afectó el rework a las bonificaciones gifted de bombas y colores?
+Anteriormente, abejas como Bomber, Rad, Cool, Fire y Bubble otorgaban bonificaciones porcentuales aditivas (como +15% o +50%). El rework convirtió estos valores en estadísticas multiplicativas reales (como x1.1 o x1.25), creando un escalado mucho más potente al combinarse con amuletos del endgame, beequips y vientos de campo.
+
+### ¿Cuál es la ventaja de la Conversión Instantánea Única en las abejas reworkeadas?
+La Conversión Instantánea Única se calcula de forma independiente a los grupos estándar de conversión instantánea. Esto permite a los jugadores que utilizan abejas como Demon Bee, Photon Bee y Windy Bee convertir porciones sustanciales de su polen recolectado en cada intervalo, extendiendo el tiempo de farmeo durante combos masivos de field boosts.
+
+### ¿Debería conservar a Puppy Bee tras los ajustes recientes?
+Los reportes de la comunidad y las pruebas de los jugadores demuestran que Puppy Bee es notablemente más útil después del rework. El buff de +10% de Velocidad de Movimiento de Abejas y +50% de Cantidad de Recolección de Abejas de Puppy Love proporciona una utilidad de equipo evidente a corto plazo, y el pago duplicado de vínculo acelera el incremento de nivel de la colmena.

@@ -1,0 +1,185 @@
+export const metadata = {
+  title: "BSS Reworked Bees: Complete Balance Changes & Stats Guide",
+  description: "Explore the comprehensive breakdown of BSS reworked bees, covering gifted bonuses, ability rebalances, conversion stats, and top hive meta builds.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Mastering your hive in Bee Swarm Simulator requires keeping up with how ability mechanics, token values, and bee synergies evolve over time. Understanding the balance adjustments made to **BSS reworked bees** is essential for optimizing pollen farming routes, tackling high-tier challenges, and maxing out honey production. When developers implement widespread stat updates and ability overhauls, knowing which **BSS reworked bees** gained the most value ensures you don't waste precious Star Treats, Royal Jellies, or drive upgrades on sub-optimal hive slots.
+
+Whether you run a specialized Blue, Red, or White hive—or prefer a flexible mixed hive composition—major bee reworks fundamentally shift combat thresholds and instant conversion rates. Below, we break down all the major bee adjustments, updated gifted hive bonuses, scaling ability mechanics, and practical meta strategies.
+
+---
+
+## Complete Overview of Reworked Event Bees
+
+Event bees serve as the backbone of specialized hive archetypes. Extensive updates redesigned how their base stats, ability scaling, and passive conversion triggers behave during active field boosts.
+
+```
++------------------+------------------------------------+------------------------------------+
+| Bee Type         | Old Mechanic / Baseline            | Reworked Mechanic / Update         |
++------------------+------------------------------------+------------------------------------+
+| Crimson Bee      | Flat Pulse pollen; +15% Red Pollen | +10% Pulse pollen per level;       |
+|                  | (Gifted)                           | 25% bee Convert Amount conversion  |
+| Cobalt Bee       | Flat Pulse pollen; +15% Blue Pollen| +10% Pulse pollen per level;       |
+|                  | (Gifted)                           | 25% bee Convert Amount conversion  |
+| Digital Bee      | Flat duplication token rate &      | Level-scaled Map Corruption;       |
+|                  | fixed Smile delay                  | adjusted Smile token delay (14-22s)|
+| Festive Bee      | +15% Red Pollen (Gifted)           | x1.25 Convert Rate at Hive         |
+| Photon Bee       | x2 White Pollen (Gifted Beamstorm) | x3 White Pollen (Gifted Beamstorm);|
+|                  |                                    | 20% base Instant Conversion        |
+| Puppy Bee        | Lower bond; static fetch mechanics | +10% Movespeed, +50% Gather Amount |
+|                  |                                    | for 10s (+1s/lvl); 2x bond payout  |
+| Tabby Bee        | Max Tabby Love static scaling      | Max Tabby Love grants +1% Crit,    |
+|                  |                                    | +25% Crit Power (+1% Super Crit)   |
+| Windy Bee        | Rain Cloud duration +5s/lvl        | Rain Cloud duration +10s/lvl;      |
+|                  |                                    | Clouds grant 10-20% Unique IC      |
++------------------+------------------------------------+------------------------------------+
+```
+
+### Crimson and Cobalt Bee Synchronization
+The superhero duo received crucial bug fixes and scaling improvements. Their signature pulses now properly scale with bee levels (+10% pollen per level) alongside active Event Bee pollen multipliers. Furthermore, when gifted, their pulses trigger an instant conversion equal to 25% of each affected bee's Convert Amount, multiplying further with active field boost stacks. Their Bomb Sync abilities also supply a +10% color pollen boost and +10% Instant Conversion while active.
+
+### Photon, Tabby, and Puppy Bee Enhancements
+Photon Bee gained 20% native Instant Conversion on all gather and ability actions, while its gifted Beamstorm now delivers a x3 multiplier on collected White Pollen. Tabby Bee's ceiling increased significantly: players maintaining max Tabby Love receive a 10-second (+1s per bee level) buff offering +1% Critical Chance and +25% Critical Power (plus +1% Super Crit Chance when gifted). Puppy Bee's Puppy Love now provides an active movement and gathering steroid (+10% Bee Movespeed and +50% Bee Gather Amount) alongside doubled bond yields.
+
+---
+
+## Mythic and Legendary Bee Rebalances
+
+Mythic bees dictate late-game farming strategies, making their balance updates particularly impactful for high-tier play.
+
+```
++------------------+---------------+--------------------+-----------------------------------+
+| Bee Rarity       | Bee Name      | Stat / Ability     | Rework Summary                    |
++------------------+---------------+--------------------+-----------------------------------+
+| Mythic           | Spicy Bee     | Convert Amount     | Base Convert increased to 300;    |
+|                  |               | & Flame Fuel       | Flame Fuel scales with Field Boost|
+| Mythic           | Precise Bee   | Convert Amount     | Base Convert decreased to 80      |
+| Mythic           | Tadpole Bee   | Attack Debuff &    | Removed x0.5 attack debuff;       |
+|                  |               | Gifted Bonus       | Gifted gives +25% Bubble Duration |
+| Mythic           | Buoyant Bee   | Attack & Bomb Type | Attack increased to 4; spawns     |
+|                  |               |                    | Blue Bomb instead of Blue Bomb+   |
+| Legendary        | Lion Bee      | Hive Bonus & Conv  | +5% Gifted Bee Pollen; base       |
+|                  |               |                    | Convert Amount buffed to 180      |
+| Legendary        | Demon Bee     | Instant Conversion | 10% base IC (20% if Gifted);      |
+|                  | & Hive Bonus  | Gifted bonus +20% Instant Bomb IC  |
+| Legendary        | Diamond Bee   | Shimmering Honey   | Honey bonus scaled to 25% +       |
+|                  |               |                    | 2.5% per bee level                |
++------------------+---------------+--------------------+-----------------------------------+
+```
+
+### Field Mechanics: Flame and Bubble Synergies
+The structural updates to field hazards directly transformed how **BSS reworked bees** interact with spawned objects:
+* **Flames:** Bee-generated flames now scale at +10% pollen per bee level and deal combat damage equal to `10 + 25%` of the bee's base attack per second. Dark Flames deal 50% more damage than standard flames.
+* **Bubbles:** Base duration was standardized to 4 seconds, gaining +5% pollen per bee level. Tadpole Bee's gifted bonus shifted to +25% Bubble Duration to extend the lifetime of these high-yield bubbles.
+
+---
+
+## Rare, Epic, and Common Bee Adjustments
+
+Lower-tier and mid-game bees also received essential rebalances, primarily shifting additive percentages into multiplicative bonuses or modifying their gifted utility.
+
+```
++---------------+---------------+---------------------------+-------------------------------+
+| Bee Tier      | Bee Name      | Previous Gifted Bonus     | New / Updated Gifted Bonus    |
++---------------+---------------+---------------------------+-------------------------------+
+| Rare          | Bomber Bee    | +15% Bomb Pollen          | x1.1 Bomb Pollen              |
+| Rare          | Rad Bee       | +15% Red Pollen           | x1.1 Red Pollen               |
+| Rare          | Cool Bee      | +15% Blue Pollen          | x1.1 Blue Pollen              |
+| Rare          | Rascal Bee    | +30% Red Bomb Pollen      | x1.25 Red Bomb Pollen         |
+| Rare          | Hasty Bee     | +20% Player Movespeed     | +15% Player Movespeed         |
+| Rare          | Stubborn Bee  | +20% Token Lifespan       | +15% Ability Token Lifespan   |
+| Epic          | Rage Bee      | +1 Attack                 | +10% Bee Attack               |
+| Epic          | Bubble Bee    | +50% Bubble Pollen        | x1.25 Bubble Pollen           |
+| Epic          | Fire Bee      | +50% Flame Pollen         | x1.25 Flame Pollen            |
+| Epic          | Shocked Bee   | +20% White Pollen         | x1.1 White Pollen             |
+| Epic          | Frosty Bee    | +30% Blue Bomb Pollen     | x1.25 Blue Bomb Pollen        |
+| Epic          | Demo Bee      | +30% Buzz Bomb Pollen     | x1.25 Buzz Bomb Pollen        |
++---------------+---------------+---------------------------+-------------------------------+
+```
+
+For official patch logs and verified community documentation on ability mechanics, consult the [Bee Swarm Simulator Wiki Updates Hub](https://bee-swarm-simulator.fandom.com/wiki/Updates).
+
+### Base Attack Adjustments Across the Roster
+To improve mob-clearing speeds across mid-game progression, Onett implemented a flat +1 base attack increase for a wide range of bees:
+* **Event Bees:** Crimson, Cobalt, Vicious, Windy, Photon, Gummy
+* **Rare / Epic / Legendary Bees:** Brave, Rage, Riley, Bucko, Exhausted, Frosty, Honey, Lion
+
+Rage stacks were also expanded, allowing up to 4 stacks (up from 3) for enhanced combat bursts against bosses like the Coconut Crab and Stump Snail.
+
+---
+
+## Hive Building Strategies with Reworked Bees
+
+When organizing your hive around the capabilities of **BSS reworked bees**, choosing the right mix of multipliers, conversions, and mutations is critical.
+
+```
++------------------+-----------------------+-----------------------+------------------------+
+| Hive Archetype   | Core Reworked Bees    | Primary Stat Focus    | Recommended Mutations  |
++------------------+-----------------------+-----------------------+------------------------+
+| Red Hive         | Spicy, Precise,       | Flame Pollen, Crit    | Critical Chance,       |
+| (Scorch-Flame)   | Crimson, Fire, Rad    | Power, Bee Attack     | Multiplicative Attack  |
+| Blue Hive        | Buoyant, Tadpole,     | Bubble Duration,      | Instant Conversion,    |
+| (Pop Bloat)      | Cobalt, Bubble, Cool  | Unique IC, Capacity   | Base Movespeed         |
+| White Hive       | Vector, Digital,      | Mark Gathering, Duped | Ability Rate,          |
+| (Vector-Gummy)   | Photon, Gummy, Lion   | Token Conversion      | Critical Chance        |
+| Mixed Hive       | Tabby, Festive,       | Balanced Pollen, Convert| Additive Convert,    |
+| (Progression)    | Photon, Puppy, Vicious| Rate at Hive, Movespeed| Base Gather Amount    |
++------------------+-----------------------+-----------------------+------------------------+
+```
+
+### Optimizing Unique Instant Conversion
+One of the most important mechanics interacting with **BSS reworked bees** is **Unique Instant Conversion (Unique IC)**. Unlike traditional additive conversion, Unique IC applies independently:
+
+$$\text{Effective Conversion} = 1 - (1 - \text{IC}_1) \times (1 - \text{IC}_2)$$
+
+For instance, having two separate 50% Unique IC sources yields an effective 75% Instant Conversion. With Photon Bee, Demon Bee, Windy Bee clouds, and mutations supplying Unique IC directly, your swarm can convert large pollen loads in the field without filling your backpack instantly.
+
+### Top Mutation Priorities
+With the introduction of expanded mutation caps, prioritizing stats on your key **BSS reworked bees** yields noticeable performance gains:
+1. **Critical Chance (1%–3%):** Top tier for attack bees, gather bees, and token abilities.
+2. **Instant Conversion (8%–20%):** Essential for high-production field farming.
+3. **Movespeed (2–6 base):** Maximizes ability collection and token generation efficiency.
+4. **Convert Amount (+80 max additive):** High synergy with Crimson and Cobalt gifted pulse procs.
+
+---
+
+## Hive Rebalancing Step-by-Step Workflow
+
+Follow this step-by-step checklist to update your hive configuration following major bee rebalances:
+
+```
++------+--------------------------+---------------------------------------------------------+
+| Step | Action                   | Key Objectives & Details                                |
++------+--------------------------+---------------------------------------------------------+
+| 1    | Audit Gifted Bonuses     | Replace flat-additive placeholders with reworked        |
+|      |                          | multiplicative bees (e.g., Bomber, Fire, Bubble).       |
+| 2    | Upgrade Pulse Synergies  | Gift Crimson and Cobalt to secure pulse conversion scaling|
+|      |                          | linked to Field Boost stacks.                           |
+| 3    | Maximize Tabby Love      | Reach 1,000 Tabby Love tokens to activate the reworked   |
+|      |                          | Crit and Super-Crit Power passive buffs.                |
+| 4    | Re-roll Sub-Par Mutations| Roll Neonberries and Bitterberries for Critical Chance  |
+|      |                          | or Instant Conversion on primary gather bees.           |
+| 5    | Fine-Tune Backpack Timing| Test backpack fill rates in your primary farming field  |
+|      |                          | and adjust Unique IC sources accordingly.               |
++------+--------------------------+---------------------------------------------------------+
+```
+
+Player experiences consistently show that optimizing gifted multiplier bees before investing heavily in mythic duplicates provides a more cost-effective boost to overall honey generation.
+
+---
+
+## Frequently Asked Questions
+
+### Which BSS reworked bees gained the biggest overall buffs?
+Crimson and Cobalt Bees received some of the most substantial buffs due to level-scaling pulse formulas and instant conversion procs on active field boost stacks. Photon Bee (with base 20% Instant Conversion and x3 Gifted White Pollen) and Tabby Bee (with bonus Critical and Super-Crit stats at max Tabby Love) also gained significant late-game value.
+
+### How did the rework affect bomb and color gifted bonuses?
+Previously, bees like Bomber, Rad, Cool, Fire, and Bubble gave additive percentage bonuses (such as +15% or +50%). The rework transitioned these into true multiplicative stats (such as x1.1 or x1.25), creating stronger scaling when combined with endgame amulets, beequips, and field winds.
+
+### What is the advantage of Unique Instant Conversion on reworked bees?
+Unique Instant Conversion calculates independently from standard instant conversion pools. This allows players running bees like Demon Bee, Photon Bee, and Windy Bee to convert substantial portions of their gathered pollen on each tick, extending farming time during massive field boost combos.
+
+### Should I keep Puppy Bee after the recent adjustments?
+Community reports and player tests show that Puppy Bee is significantly more useful post-rework. The +10% Bee Movespeed and +50% Bee Gather Amount buff from Puppy Love provides noticeable short-term team utility, and the doubled bond payout accelerates hive leveling.

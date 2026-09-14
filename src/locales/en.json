@@ -6,7 +6,19 @@
     "description": "BSS Reworked Wiki provides codes, guides, updates, items, and tips to help Roblox players progress, explore features, and master the reworked simulator.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "controls": "Controls",
+    "progression": "Progression",
+    "codes": "Codes",
+    "maps": "Maps",
+    "community": "Community"
+  },
   "home": {
     "meta": {
       "title": "BSS Reworked Wiki — Codes, Guides, Bees & Progression",
@@ -417,7 +429,6 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -452,6 +463,42 @@
     "bossGuides": "Boss Guides",
     "buildGuide": "Hive Builds",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "codes": "Codes",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "progression": "Progression"
+  },
+  "guide": {
+    "overviewTitle": "BSS Reworked Guides",
+    "overviewDescription": "Comprehensive guides, beginner walkthroughs, rebirth strategies, and progression tips for BSS Reworked."
+  },
+  "mechanics": {
+    "overviewTitle": "BSS Reworked Mechanics",
+    "overviewDescription": "In-depth guide to bees, pollen collection, honey conversion, quests, and core game mechanics in BSS Reworked."
+  },
+  "items": {
+    "overviewTitle": "BSS Reworked Items & Equipment",
+    "overviewDescription": "Complete catalog of items, bee types, stat boosts, gear, and progression rewards in BSS Reworked."
+  },
+  "controls": {
+    "overviewTitle": "BSS Reworked Controls & Settings",
+    "overviewDescription": "Master controls for PC and mobile devices, keybind optimizations, and sensitivity settings for BSS Reworked."
+  },
+  "progression": {
+    "overviewTitle": "BSS Reworked Progression & Rebirth",
+    "overviewDescription": "Rebirth roadmaps, early to late game speedrunning, hive optimization, and honey farming milestones in BSS Reworked."
+  },
+  "codes": {
+    "overviewTitle": "BSS Reworked Codes",
+    "overviewDescription": "Latest active promo codes, free honey rewards, boost redemption, and reward guides for BSS Reworked."
+  },
+  "maps": {
+    "overviewTitle": "BSS Reworked Maps & Fields",
+    "overviewDescription": "Detailed map overview covering flower fields, level-gated zones, secret areas, and NPC locations in BSS Reworked."
+  },
+  "community": {
+    "overviewTitle": "BSS Reworked Community",
+    "overviewDescription": "Join official BSS Reworked Discord server, community discussions, update announcements, and player hubs."
   }
 }

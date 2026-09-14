@@ -1,0 +1,151 @@
+export const metadata = {
+  title: "Guía de polen rediseñado de BSS: estadísticas, multiplicadores y escalado de miel",
+  description: "Domina las mecánicas del polen rediseñado de BSS. Aprende cómo los multiplicadores de color, bombas, tasas de conversión y poder crítico maximizan tu producción de miel.",
+  category: "mechanics",
+  date: "2026-09-14",
+}
+
+Maximizar la generación de miel en Bee Swarm Simulator requiere una comprensión completa de cómo interactúan las mecánicas de recolección entre bastidores. Tras los recientes ajustes de equilibrio y del sistema, entender el escalado del **polen rediseñado de BSS** es esencial para elegir el equipamiento, las abejas gifted (talentosas) y los amuletos adecuados. Tanto si manejas una composición de color especializada como una colmena mixta equilibrada, analizar cómo calculan los aumentos las reservas de **polen rediseñado de BSS** transformará tu eficiencia al hacer miel.
+
+Cada flor que cosechas depende de capas de estadísticas aditivas y multiplicativas que se encuentran en la Página del Sistema (System Page) dentro del juego. Al calcular la recolección base, las bonificaciones de color, las pasivas de habilidades y los multiplicadores críticos en conjunto, desbloqueas un crecimiento exponencial. Esta guía desglosa las mecánicas fundamentales de recolección de polen, conversión y acumulación de estadísticas para que puedas disparar tu generación de miel por hora.
+
+---
+
+## Mecánicas fundamentales: comprender el polen base frente al multiplicativo
+
+En Bee Swarm Simulator, la recolección de polen no es un simple número plano. En su lugar, el juego procesa tus acciones de recolección a través de múltiples categorías de estadísticas distintas que se combinan para formar tu rendimiento total.
+
+```
+Cosecha total = Polen base × (1 + % Polen universal) × (1 + % Polen de color) × (1 + % Polen de fuente) × Multiplicadores críticos
+```
+
+El polen universal actúa como el escalar base para cada evento de recolección en el campo, ya sea que provenga de tu herramienta equipada, de una acción de recolección básica de tus abejas o de fichas (tokens) de habilidad de alto nivel.
+
+| Categoría de estadística | Descripción | Fuentes principales | Tipo de aplicación |
+| :--- | :--- | :--- | :--- |
+| **Polen universal** | Aumenta el polen recolectado de todas las fuentes en cada campo | Gifted Basic Bee, Bear Morph, fichas de Inspire, Amuletos | Multiplicador global |
+| **Polen de herramienta** | Multiplica la recolección estrictamente al balancear tu herramienta de recolección | Stump Badge, Gifted Carpenter Bee, Pegamento (Glue), Equipamiento de alto nivel | Específico de herramienta |
+| **Polen de recolección de abeja** | Escala la producción base de recolección de abejas individuales en las flores | Gifted Music Bee, Pegamento (Glue), Gamepass 2x Pollen, Mutaciones | Pasiva de abeja |
+| **Polen de habilidad de abeja** | Amplifica el polen recolectado directamente por fichas de habilidad (Marks, Flames, etc.) | Gifted Shy Bee, Beequips, bonificaciones de Sticker Stack | Específico de habilidad |
+
+Según la experiencia de los jugadores y las pruebas de campo, descuidar el polen universal en favor de estadísticas puramente de color genera rendimientos decrecientes. Construir una base universal sólida garantiza que cada mejora especializada escale más alto.
+
+---
+
+## Polen específico de color y escalado de capacidad de campo
+
+Cada campo del juego consta de flores blancas, rojas o azules (o una mezcla de ellas). Maximizar la especialización de color de tu colmena requiere equilibrar los multiplicadores brutos de polen de color con estadísticas dedicadas de capacidad de campo.
+
+### Desglose de multiplicadores de color
+
+Cada color cuenta con mecánicas distintas, tipos de fichas y progresiones de insignias:
+
+| Color de flor | Mecánicas principales de impulso | Bonificaciones esenciales de abejas Gifted | Insignias y objetos clave |
+| :--- | :--- | :--- | :--- |
+| **Polen rojo** | Flame Heat, Precise Marks, Red Boosts | Gifted Rad Bee, Gifted Crimson Bee, Gifted Riley Bee | Strawberry Badge, Red Extract, Demon Mask |
+| **Polen azul** | Bubble Bloat, Blue Boosts, Frogs | Gifted Cool Bee, Gifted Cobalt Bee, Gifted Bucko Bee | Pine Tree Badge, Blue Extract, Diamond Mask |
+| **Polen blanco** | Focus Stacks, Vector Marks, Clouds | Gifted Shocked Bee, Gifted Bear Bee, Gifted Windy Bee | Coconut Badge, Spider Badge, Tropical Drinks |
+
+### Gestión de la capacidad de campo
+
+Al optimizar tu configuración para los rendimientos del **polen rediseñado de BSS**, el desbordamiento de la mochila es tu mayor cuello de botella. La capacidad específica de campo aumenta el volumen de tu mochila exclusivamente mientras cosechas en entornos de flores correspondientes.
+
+*   **Capacidad de campo rojo:** Aumenta el tamaño de la mochila en campos de flores rojas (mejorado por Demon Mask y mejoras de Riley).
+*   **Capacidad de campo azul:** Expande en gran medida la capacidad en campos azules como Pine Tree (mejorado por Diamond Mask y bonificaciones de Bucko).
+*   **Capacidad de campo blanco:** Escala el volumen de la mochila en campos como Coconut y Spider (mejorado por Gummy Mask y adornos de Polar Bear).
+
+Si tu capacidad se llena en tres segundos, tus abejas dejan de recolectar de manera eficiente, lo que provoca un desperdicio significativo de polen.
+
+---
+
+## Mecánicas de fichas: bombas, burbujas, llamas y marcas
+
+Una gran parte del polen en el juego tardío (endgame) no proviene de hacer clic manualmente, sino de activar mecánicas de fichas de alta potencia. Comprender la distinción entre estas categorías de fichas es vital al dominar las estrategias del **polen rediseñado de BSS**.
+
+| Tipo de habilidad | Mecanismo y función | Multiplicadores de estadísticas dedicados | Mejores abejas sinérgicas |
+| :--- | :--- | :--- | :--- |
+| **Buzz / Bombas de color** | Explota en un grupo de flores, recolectando polen instantáneo en un radio | % Polen de bomba, Polen de Buzz/Red/Blue Bomb | Bomber Bee, Demo Bee, Rascal Bee, Frosty Bee |
+| **Burbujas** | Aparecen en los campos, explotando para cosechar flores circundantes y regarlas | % Polen de burbuja, Bubble Bloat (capacidad y conversión en colmena) | Bubble Bee, Tadpole Bee, Buoyant Bee |
+| **Llamas** | Queman parches de flores a lo largo del tiempo, cosechando continuamente | % Polen de llama, Flame Heat, Scorching Star | Fire Bee, Spicy Bee, Demon Bee |
+| **Marcas** | Dejan caer zonas estacionarias que multiplican el polen, la conversión o las tasas de crítico | Mark Surge, % Polen universal, Super-Crit | Carpenter Bee, Vector Bee, Precise Bee |
+
+Para los jugadores que pasan del juego medio (mid-game) al juego tardío (endgame), acumular multiplicadores de fichas especializados (como Flame Pollen o Bubble Pollen) proporciona retornos por ráfaga mucho más altos que las mejoras genéricas de herramientas. Puedes monitorear todos estos multiplicadores especializados a través de la interfaz de la [Roblox platform](https://www.roblox.com/) dentro del menú de engranaje de la Página del Sistema de Bee Swarm Simulator.
+
+---
+
+## La cadena crítica: golpes críticos y supercríticos
+
+La fórmula de recolección presenta dos capas de bonificaciones críticas: golpes críticos estándar y supercríticos de alto nivel. Cuando se acumulan correctamente, estas estadísticas multiplican tu poder de recolección en cientos por ciento.
+
+### Jerarquía de poder crítico
+
+1.  **Probabilidad crítica:** Determina la probabilidad (con un límite teórico cercano al 88% mediante equipamiento normal y Focus) de que una acción de recolección aseste un golpe crítico.
+2.  **Poder crítico:** El multiplicador porcentual aplicado a un golpe crítico (escalando hasta casi el 700% a través de Tabby Blessing, Melody y Looker Bee).
+3.  **Probabilidad de supercrítico:** La probabilidad de que un golpe ya crítico se convierta en un supercrítico.
+4.  **Poder de supercrítico:** Un escalar adicional aplicado estrictamente a eventos de supercrítico, convirtiendo instantáneamente una porción de la recolección.
+
+| Estadística crítica | Límite blando/duro | Fuentes principales de equipamiento y mejoras | Impacto estratégico |
+| :--- | :--- | :--- | :--- |
+| **Probabilidad crítica** | ~88% Máx. | Fichas de Focus, Tropical Drinks, Commander Bee, Ant Amulet | Consistencia en la recolección de alto nivel |
+| **Poder crítico** | ~695% Máx. | Tabby Bee (Gifted + Tabby Love), Melody, Battle Badge | Multiplicador masivo en la cosecha base |
+| **Probabilidad de supercrítico** | 53% (Contexto de desafío) | Gifted Precise Bee, acumulaciones de Precision, Bloxiade, Super Smoothie | Convierte la recolección de ráfagas altas en miel instantánea |
+| **Poder de supercrítico** | Variable (Beequips/Amuletos) | Cog Amulet, Beequips Kazoo/Whistle, Dark Scythe | Multiplicador de juego tardío para ráfagas de colmenas rojas y blancas |
+
+---
+
+## Mecánicas de conversión: convertir polen en miel
+
+Recolectar miles de millones de polen es inútil si nunca se convierte en miel gastable. El ciclo de conversión consiste en la conversión instantánea en el campo y la conversión de retorno en la colmena.
+
+```
+Miel total = Polen recolectado × % Conversión instantánea × (1 + % Miel por polen)
+```
+
+### Desglose de conversión
+
+*   **Conversión instantánea:** Convierte un porcentaje del polen recolectado en miel directamente en el campo, evitando que tu mochila se atasque.
+*   **Conversión instantánea de color:** Las estadísticas de conversión especializadas (como Instant Red o Instant White Conversion) se acumulan con la conversión instantánea universal para mantener vacías las mochilas de colores específicos.
+*   **Cantidad de conversión frente a tasa de conversión:** Convert Amount aumenta la unidad base de miel que tus abejas convierten por ciclo, mientras que Convert Rate incrementa la velocidad y la eficiencia porcentual de esa conversión.
+*   **Miel por polen (HPP):** Un multiplicador aplicado cada vez que el polen se transforma en miel mediante herramientas, fichas, microconvertidores o paradas en la colmena.
+
+| Estadística de conversión | Función | Mejores objetos/mejoras de escalado | Uso óptimo en colmena |
+| :--- | :--- | :--- | :--- |
+| **Miel por polen** | Multiplica el rendimiento final de miel por unidad de polen | Moon Amulet, Wealth Clock, Goo Badge, Néctares | Universal en todas las configuraciones de colmena |
+| **Conversión instantánea** | Convierte polen en el campo sin visitar la colmena | Gifted Photon Bee, Enzimas (Enzymes), Festive Blessing | Crucial para colmenas de ráfaga rojas y blancas |
+| **Tasa de conversión en colmena** | Acelera la conversión al estar de pie junto a la colmena | Pumpkin Badge, Bubble Bloat, Satisfying Nectar | Vital para colmenas azules que usan macros |
+| **Conversión de Goo** | Convierte polen según los multiplicadores activos de Goo | Gummy Mask, Gummy Star, Gummyballer | Esencial para misiones de Goo y colmenas blancas |
+
+---
+
+## Diseños estratégicos de colmena para maximizar la producción de polen
+
+Para aprovechar eficazmente los sistemas de **polen rediseñado de BSS**, debes adaptar la composición de tu colmena, los amuletos y las mejoras de campo hacia un arquetipo claro de juego tardío.
+
+| Arquetipo de colmena | Motor principal de polen | Prioridades de estadísticas clave | Objetos de campo esenciales |
+| :--- | :--- | :--- | :--- |
+| **Colmena azul** | Bubble Bloat, Balloon Blessing, Frogs | Polen azul, Tasa de conversión en colmena, Capacidad azul | Blue Extract, Marshmallow Bee, Comforting Nectar |
+| **Colmena roja** | Precise Marks, Scorching Star, Flame Heat | Probabilidad de supercrítico, Conversión instantánea roja, Polen rojo | Red Extract, Tropical Drinks, Stingers, Invigorating Nectar |
+| **Colmena blanca** | Vector Marks, Gummy Star, Carpenter Triangles | Polen blanco, Miel por polen, Poder crítico | Pegamento (Glue), Tropical Drinks, Super Smoothies, Satisfying Nectar |
+| **Mixta / Juego temprano-medio** | Recolección balanceada con herramienta, Bombas mixtas | Polen universal, Multiplicador de capacidad, Velocidad de movimiento | Enzimas (Enzymes), Aceite (Oil), Mejoras básicas, Moon Amulet |
+
+### Pasos prácticos de optimización
+
+1.  **Audita tu Página del Sistema:** Abre el engranaje de ajustes del juego e inspecciona tus multiplicadores actuales. Identifica si tu mayor cuello de botella es el polen universal, la probabilidad crítica o la capacidad de campo.
+2.  **Optimiza las pasivas Gifted:** Asegúrate de tener copias únicas de abejas gifted clave (como Basic, Commander, Looker y Music) por sus bonificaciones de recolección para toda la colmena antes de acumular duplicados.
+3.  **Sincroniza objetos de potenciación:** Nunca actives consumibles de alto nivel (como Super Smoothies o Tropical Drinks) sin acumular los vientos de campo correspondientes, mejoras de insignias y barras de néctar llenas.
+
+---
+
+## Preguntas frecuentes (FAQ)
+
+### ¿Cuál es el mayor error que cometen los jugadores con las estadísticas del polen rediseñado de BSS?
+El error más común es invertir en exceso en polen bruto de herramienta mientras se descuidan el polen universal, el poder crítico y la conversión instantánea. Las herramientas solo representan una fracción de la recolección total a partir del juego medio; las fichas de habilidad, las llamas y las recolecciones de abejas proporcionan la mayor parte de tu cosecha total.
+
+### ¿Cómo interactúa Miel por polen (HPP) con las ganancias de polen rediseñado de BSS?
+Miel por polen (HPP) actúa como un multiplicador de conversión final. Cuando cosechas polen usando tus multiplicadores de **polen rediseñado de BSS**, el HPP escala la producción de miel resultante durante la conversión. Acumular HPP mediante Moon Amulets y Wealth Clocks aumenta significativamente el valor de cada ciclo de recolección.
+
+### ¿La tasa de habilidad de abeja (Bee Ability Rate) aumenta directamente la recolección de polen?
+Sí. La tasa de habilidad de abeja reduce el tiempo de reutilización para que tus abejas produzcan fichas. Fichas más frecuentes significan un mayor tiempo de actividad en mejoras cruciales como Focus, Melody, Inspire y marcas de campo, multiplicando indirectamente tu recolección sostenida de polen.
+
+### ¿Cómo ayudan las estadísticas de capacidad específicas de campo a evitar el desbordamiento?
+Las estadísticas de capacidad específicas de campo (Red, Blue y White Field Capacity) proporcionan aumentos porcentuales masivos al volumen de tu mochila según la distribución del color de las flores de tu campo actual. Este margen adicional le da a tus mecánicas de conversión instantánea suficiente tiempo para procesar el polen entrante antes de que tu mochila alcance la capacidad máxima.
