@@ -1,1 +1,477 @@
-{}
+{
+  "site": {
+    "name": "Wiki BSS Reworked",
+    "shortName": "BSS Reworked",
+    "tagline": "Kode, Panduan, Item & Pembaruan",
+    "description": "Wiki BSS Reworked menyediakan kode promo, panduan, pembaruan, item, dan tips untuk membantu pemain Roblox berkembang dan menguasai simulator lebah yang diperbarui.",
+    "legalNotice": "Wiki penggemar tidak resmi. Dibuat oleh pemain, untuk pemain."
+  },
+  "nav": {
+    "home": "Beranda",
+    "menu": "Menu",
+    "toggleTheme": "Ganti tema",
+    "guide": "Panduan",
+    "mechanics": "Mekanik",
+    "items": "Item",
+    "controls": "Kontrol",
+    "progression": "Progresi",
+    "codes": "Kode",
+    "maps": "Peta",
+    "community": "Komunitas"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki BSS Reworked — Kode, Panduan, Lebah & Progresi",
+      "description": "Panduan lengkap BSS Reworked di Roblox berisi kode aktif, daftar tingkatan lebah, tips mengumpulkan serbuk sari, upgrade peralatan, dan progresi sarang lebah."
+    },
+    "hero": {
+      "eyebrow": "Pengalaman Simulator Lebah Roblox",
+      "title": "Wiki BSS Reworked",
+      "description": "Wiki BSS Reworked menghadirkan panduan, kode aktif, info pembaruan, tips progresi, detail item, dan panduan bermain untuk membantu Anda menguasai simulator lebah di Roblox.",
+      "stats": [
+        "Kode Aktif Terverifikasi",
+        "Spesies & Tingkatan Lebah",
+        "Ladang Bunga & Zona Peta",
+        "Rute Progresi Rebirth"
+      ],
+      "primaryCta": "Mulai Bermain",
+      "secondaryCta": "Lihat Kode Aktif",
+      "features": [
+        {
+          "title": "Kode Aktif",
+          "description": "Klaim madu gratis, peningkat kecepatan, dan hadiah eksklusif yang selalu dicek setiap update."
+        },
+        {
+          "title": "Strategi Sarang Lebah",
+          "description": "Bangun sarang lebah terbaik dengan sinergi lebah optimal dan prioritas mutasi."
+        },
+        {
+          "title": "Tips Progresi Cepat",
+          "description": "Percepat pencapaian rebirth dan buka ladang bunga level tinggi lebih awal."
+        }
+      ]
+    },
+    "updates": {
+      "title": "Pembaruan Terbaru",
+      "browse": "Jelajahi Semua Panduan",
+      "viewAll": "Lihat Semua"
+    },
+    "start": {
+      "eyebrow": "Mulai Di Sini",
+      "title": "Perjalanan BSS Reworked Anda",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Panduan Pemula",
+          "description": "Kuasai dasar-dasar bermain sejak hari pertama: mengklaim sarang, mengumpulkan serbuk sari, dan mengonversi menjadi madu."
+        },
+        {
+          "number": "2",
+          "title": "Panen Serbuk Sari & Madu",
+          "description": "Pelajari pola rotasi terbaik di ladang bunga dan cara memaksimalkan kapasitas tas selama farming."
+        },
+        {
+          "number": "3",
+          "title": "Kawanan & Sarang Lebah",
+          "description": "Menetaskan telur lebah baru, seimbangkan lebah pengumpul dan penyerang, serta bangun komposisi sarang serbaguna."
+        },
+        {
+          "number": "4",
+          "title": "Kode Aktif & Boosts",
+          "description": "Segera tukarkan semua kode promo yang masih aktif untuk mendapatkan dorongan kecepatan, pengali serbuk sari, dan madu awal."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Halaman Populer",
+      "title": "Sedang Tren",
+      "quickLinks": [
+        "Panduan Pemula",
+        "Kode Aktif",
+        "Tier List Lebah",
+        "Tips Progresi"
+      ],
+      "cards": [
+        {
+          "badge": "Pemula",
+          "title": "Panduan Pemula",
+          "description": "Semua yang Anda butuhkan mulai dari lebah pertama hingga mencapai tonggak 100.000 madu perdana.",
+          "linkText": "Baca Panduan"
+        },
+        {
+          "badge": "Hadiah",
+          "title": "Kode Aktif",
+          "description": "Kode promo aktif terverifikasi harian berisi madu gratis, peningkat kecepatan, dan item berguna.",
+          "linkText": "Dapatkan Kode"
+        },
+        {
+          "badge": "Lebah",
+          "title": "Tier List Lebah",
+          "description": "Ketahui lebah biasa, langka, epik, legendaris, hingga mistis mana yang paling layak masuk ke sarang Anda.",
+          "linkText": "Lihat Peringkat"
+        },
+        {
+          "badge": "Lanjutan",
+          "title": "Tips Progresi",
+          "description": "Strategi langkah demi langkah membuka zona 10, 20, dan 30 lebah serta meningkatkan produksi madu.",
+          "linkText": "Lihat Tips"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Apa itu BSS Reworked?",
+      "paragraphs": [
+        "BSS Reworked adalah game simulator lebah di Roblox yang memperbarui mekanik kawanan lebah klasik dengan progresi modern, ladang bunga cerah, dan pengumpulan madu yang dinamis. Tetaskan berbagai spesies lebah, kustomisasi sarang Anda, dan kumpulkan serbuk sari di berbagai bioma unik.",
+        "Selesaikan misi dari beruang penjaga, buka peralatan canggih dan tas berkapasitas besar, kalahkan makhluk pengganggu di ladang, dan optimalkan kemampuan lebah untuk menjadi peternak lebah terhebat di Roblox."
+      ],
+      "featuresTitle": "Keunggulan Utama BSS Reworked",
+      "features": [
+        {
+          "title": "Sistem Lebah yang Disempurnakan",
+          "description": "Skill lebah yang seimbang, efek visual baru, dan bakat kawanan yang dirancang untuk pengalaman bermain memuaskan."
+        },
+        {
+          "title": "Zona & Ladang Luas",
+          "description": "Buka area khusus yang dibatasi jumlah lebah, dengan bunga kaya serbuk sari dan material langka."
+        },
+        {
+          "title": "Peralatan & Tas Penyimpanan",
+          "description": "Gunakan alat pengumpul serbuk sari mutakhir, tas berkapasitas besar, dan jimat penguat status."
+        },
+        {
+          "title": "Misi & Event Dinamis",
+          "description": "Ikuti quest harian dari beruang penjaga dan event musiman untuk memenangkan hadiah bernilai tinggi serta telur lebah."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Platform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Simulator / Petualangan"
+        },
+        {
+          "label": "Alur Utama",
+          "value": "Serbuk Sari ➔ Madu ➔ Lebah ➔ Upgrade"
+        },
+        {
+          "label": "Tingkatan Lebah",
+          "value": "Biasa hingga Mistis & Event"
+        }
+      ]
+    },
+    "explore": {
+      "title": "Jelajahi Wiki BSS Reworked",
+      "description": "Kuasai BSS Reworked di Roblox dengan panduan progresi penting, kode aktif, katalog lebah lengkap, dan strategi panen madu optimal.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Kode BSS Reworked",
+          "description": "Klaim kode promosi aktif terbaru untuk mendapatkan madu gratis, boost kecepatan, dan peningkatan serbuk sari di BSS Reworked.",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Kode Aktif",
+              "value": "Hadiah Madu"
+            },
+            {
+              "label": "Kode Kedaluwarsa",
+              "value": "Arsip Riwayat"
+            },
+            {
+              "label": "Cara Menukar",
+              "value": "Langkah Mudah"
+            },
+            {
+              "label": "Verifikasi",
+              "value": "Dicek Setiap Patch"
+            }
+          ],
+          "href": "/codes"
+        },
+        {
+          "order": 2,
+          "name": "Panduan Pemula BSS Reworked",
+          "description": "Panduan lengkap untuk pemain baru: cara mengklaim sarang, memanen serbuk sari efisien, memproduksi madu, dan membeli telur lebah di BSS Reworked.",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "Klaim Sarang",
+              "value": "Pangkalan Awal"
+            },
+            {
+              "label": "Panen Serbuk Sari",
+              "value": "Ladang Dasar"
+            },
+            {
+              "label": "Konversi Madu",
+              "value": "Hasilkan Koin"
+            },
+            {
+              "label": "Telur Perdana",
+              "value": "Perluas Kawanan"
+            }
+          ],
+          "href": "/guide/bss-reworked-beginner-guide"
+        },
+        {
+          "order": 3,
+          "name": "Tier List Lebah BSS Reworked",
+          "description": "Peringkat lebah komprehensif: mulai dari tipe biasa, langka, epik, legendaris, hingga mistis untuk kebutuhan panen dan pertempuran di BSS Reworked.",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "Tier S",
+              "value": "Mistis & Meta"
+            },
+            {
+              "label": "Tier A",
+              "value": "Legendaris Pilihan"
+            },
+            {
+              "label": "Tier B",
+              "value": "Epik Pendukung"
+            },
+            {
+              "label": "Tier C",
+              "value": "Biasa Awal"
+            }
+          ],
+          "href": "/items/bss-reworked-bee-types"
+        },
+        {
+          "order": 4,
+          "name": "Rute Progresi BSS Reworked",
+          "description": "Peta jalan efektif dari awal hingga akhir permainan, syarat zona lebah tinggi, target sarang, dan sistem rebirth di BSS Reworked.",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "Awal Permainan",
+              "value": "0 hingga 10 Lebah"
+            },
+            {
+              "label": "Pertengahan",
+              "value": "10 hingga 25 Lebah"
+            },
+            {
+              "label": "Akhir Permainan",
+              "value": "Zona 35+ Lebah"
+            },
+            {
+              "label": "Target Rebirth",
+              "value": "Pengali Utama"
+            }
+          ],
+          "href": "/progression/bss-reworked-progression-guide"
+        },
+        {
+          "order": 5,
+          "name": "Peralatan & Item BSS Reworked",
+          "description": "Daftar lengkap alat pengumpul serbuk sari, tas penyimpanan madu, jimat status, dan aksesoris penunjang di BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Alat Pengumpul",
+              "value": "Sekop & Kolektor"
+            },
+            {
+              "label": "Tas Punggung",
+              "value": "Kapasitas Serbuk Sari"
+            },
+            {
+              "label": "Jimat",
+              "value": "Status Pasif"
+            },
+            {
+              "label": "Aksesoris",
+              "value": "Sepatu & Sabuk"
+            }
+          ],
+          "href": "/items"
+        },
+        {
+          "order": 6,
+          "name": "Mekanik Permainan BSS Reworked",
+          "description": "Pahami regenerasi serbuk sari bunga, bonus konversi madu, monster ladang, dan sistem bakat pasif di BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tipe Serbuk Sari",
+              "value": "Merah, Biru & Putih"
+            },
+            {
+              "label": "Konversi Madu",
+              "value": "Kecepatan Produksi"
+            },
+            {
+              "label": "Monster",
+              "value": "Respawn & Drop Item"
+            },
+            {
+              "label": "Misi",
+              "value": "Tugas Beruang"
+            }
+          ],
+          "href": "/mechanics"
+        },
+        {
+          "order": 7,
+          "name": "Peta & Zona BSS Reworked",
+          "description": "Panduan navigasi lengkap untuk semua ladang bunga, pintu gerbang level lebah, area rahasia, dan lokasi NPC di BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Zona Pemula",
+              "value": "Ladang Bebas"
+            },
+            {
+              "label": "Gerbang 10 Lebah",
+              "value": "Lembah Tengah"
+            },
+            {
+              "label": "Gerbang 25 Lebah",
+              "value": "Gunung Atas"
+            },
+            {
+              "label": "Area Rahasia",
+              "value": "Peti Tersembunyi"
+            }
+          ],
+          "href": "/maps"
+        },
+        {
+          "order": 8,
+          "name": "Komunitas BSS Reworked",
+          "description": "Bergabunglah dengan sesama pemain, masuki server Discord resmi, ikuti catatan pembaruan, dan bagikan formasi sarang lebah BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Server Discord",
+              "value": "Obrolan & Info"
+            },
+            {
+              "label": "Catatan Patch",
+              "value": "Pembaruan Game"
+            },
+            {
+              "label": "Formasi Sarang",
+              "value": "Strategi Komunitas"
+            },
+            {
+              "label": "Grup Roblox",
+              "value": "Komunitas Penggemar"
+            }
+          ],
+          "href": "/community"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "description": "Jawaban cepat atas pertanyaan paling umum seputar BSS Reworked.",
+      "items": [
+        {
+          "question": "Apa itu BSS Reworked?",
+          "answer": "BSS Reworked adalah game simulator lebah di Roblox tempat pemain mengumpulkan serbuk sari, menetaskan lebah, menghasilkan madu, dan menjelajahi ladang baru."
+        },
+        {
+          "question": "Bagaimana cara mendapatkan lebih banyak lebah di BSS Reworked?",
+          "answer": "Anda dapat membeli slot sarang baru dengan madu dan menetaskan telur lebah yang dibeli dari toko atau diperoleh dari hadiah misi di BSS Reworked."
+        },
+        {
+          "question": "Di mana saya bisa menemukan kode BSS Reworked terbaru?",
+          "answer": "Halaman kode BSS Reworked kami selalu diperbarui secara rutin dengan kode promo aktif untuk mendapatkan madu gratis dan boost."
+        },
+        {
+          "question": "Apa cara tercepat untuk naik level di BSS Reworked?",
+          "answer": "Selesaikan misi beruang penjaga secara rutin, tingkatkan tas dan peralatan Anda, serta manfaatkan peningkat serbuk sari di ladang bunga terbaik di BSS Reworked."
+        },
+        {
+          "question": "Apakah BSS Reworked gratis dimainkan di Roblox?",
+          "answer": "Ya, BSS Reworked sepenuhnya gratis dimainkan di platform Roblox melalui PC, ponsel pintar, dan konsol."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Siap Menguasai BSS Reworked?",
+      "description": "Mulai dari mengumpulkan serbuk sari dan menetaskan lebah hingga menemukan area tersembunyi, wiki komunitas kami menyajikan panduan gratis terlengkap.",
+      "primary": "Baca Panduan Pemula",
+      "secondary": "Mainkan di Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navigasi Wiki",
+    "activeCodes": "Kode Aktif",
+    "updated": "Diperbarui",
+    "viewAllCodes": "Lihat semua kode",
+    "playOnRoblox": "Main di Roblox",
+    "inThisSection": "Di bagian ini",
+    "tableOfContents": "Daftar Isi",
+    "nextSteps": "Langkah Berikutnya",
+    "needHelp": "Butuh Bantuan?",
+    "relatedReading": "Bacaan Terkait",
+    "relatedGuides": "Panduan Terkait",
+    "readMore": "Baca selengkapnya",
+    "officialMedia": "Media Resmi",
+    "home": "Beranda",
+    "noGuidesAvailable": "Belum ada panduan yang tersedia di bagian ini."
+  },
+  "footer": {
+    "aboutTitle": "Wiki BSS Reworked",
+    "about": "Wiki BSS Reworked adalah pusat panduan independen buatan penggemar yang memuat rute progresi, tipe lebah, item, kode aktif, dan mekanik utama game untuk pemain Roblox.",
+    "quickLinks": "Tautan Cepat",
+    "guides": "Panduan",
+    "legal": "Legal",
+    "copyright": "2026 Wiki BSS Reworked. Tidak berafiliasi dengan Roblox atau pengembang game.",
+    "description": "Panduan penggemar terlengkap untuk BSS Reworked di Roblox dengan kode, panduan, item, dan tips progresi.",
+    "links": {
+      "codes": "Kode",
+      "beginnerGuide": "Panduan Pemula",
+      "tierList": "Tier List Lebah",
+      "progression": "Panduan Progresi",
+      "privacyPolicy": "Kebijakan Privasi",
+      "termsOfService": "Ketentuan Layanan"
+    },
+    "legalNotice": "Wiki BSS Reworked adalah situs penggemar independen dan tidak didukung atau berafiliasi dengan Roblox Corporation.",
+    "allRightsReserved": "Hak cipta dilindungi undang-undang.",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "home": "Beranda",
+    "explore": "Jelajahi",
+    "community": "Komunitas"
+  },
+  "guide": {
+    "overviewTitle": "Panduan BSS Reworked",
+    "overviewDescription": "Panduan menyeluruh, walkthrough pemula, strategi rebirth, dan tips progresi untuk BSS Reworked."
+  },
+  "mechanics": {
+    "overviewTitle": "Mekanik BSS Reworked",
+    "overviewDescription": "Panduan mendalam tentang lebah, panen serbuk sari, konversi madu, quest, dan mekanisme utama di BSS Reworked."
+  },
+  "items": {
+    "overviewTitle": "Item & Perlengkapan BSS Reworked",
+    "overviewDescription": "Katalog lengkap item, jenis lebah, peningkatan status, perlengkapan, dan hadiah progresi di BSS Reworked."
+  },
+  "controls": {
+    "overviewTitle": "Kontrol & Pengaturan BSS Reworked",
+    "overviewDescription": "Kuasai kontrol di PC dan perangkat seluler, optimasi tombol pintas, dan pengaturan sensitivitas di BSS Reworked."
+  },
+  "progression": {
+    "overviewTitle": "Progresi & Rebirth BSS Reworked",
+    "overviewDescription": "Peta jalan rebirth, tips cepat awal hingga akhir permainan, optimasi sarang, dan target madu di BSS Reworked."
+  },
+  "codes": {
+    "overviewTitle": "Kode BSS Reworked",
+    "overviewDescription": "Kode promo aktif terbaru, hadiah madu gratis, penukaran boost, dan panduan hadiah untuk BSS Reworked."
+  },
+  "maps": {
+    "overviewTitle": "Peta & Ladang BSS Reworked",
+    "overviewDescription": "Tinjauan lengkap peta mencakup ladang bunga, zona batas level, area rahasia, dan lokasi NPC di BSS Reworked."
+  },
+  "community": {
+    "overviewTitle": "Komunitas BSS Reworked",
+    "overviewDescription": "Bergabunglah dengan server Discord resmi BSS Reworked, diskusi komunitas, pengumuman pembaruan, dan hub pemain."
+  }
+}

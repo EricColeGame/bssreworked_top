@@ -1,1 +1,477 @@
-{}
+{
+  "site": {
+    "name": "Wiki de BSS Reworked",
+    "shortName": "BSS Reworked",
+    "tagline": "Códigos, Guias, Itens e Atualizações",
+    "description": "A Wiki de BSS Reworked oferece códigos, guias, atualizações, itens e dicas para ajudar jogadores de Roblox a progredir, explorar recursos e dominar o simulador remodelado.",
+    "legalNotice": "Wiki não oficial feita por fãs. Criada por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "items": "Itens",
+    "controls": "Controles",
+    "progression": "Progressão",
+    "codes": "Códigos",
+    "maps": "Mapas",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki de BSS Reworked — Códigos, Guias, Abelhas e Progressão",
+      "description": "Guia completo de BSS Reworked no Roblox com códigos ativos, tier list de abelhas, dicas de coleta de pólen, melhorias de equipamentos e evolução da colmeia."
+    },
+    "hero": {
+      "eyebrow": "Experiência de Simulador de Abelhas no Roblox",
+      "title": "Wiki de BSS Reworked",
+      "description": "A Wiki de BSS Reworked oferece aos jogadores guias, códigos, atualizações, dicas de progressão, informações sobre itens e recursos de gameplay para dominar o simulador reformulado no Roblox.",
+      "stats": [
+        "Códigos Ativos Verificados",
+        "Espécies e Tiers de Abelhas",
+        "Campos de Flores e Zonas",
+        "Rotas de Progressão de Rebirth"
+      ],
+      "primaryCta": "Começar a Jogar",
+      "secondaryCta": "Ver Códigos Ativos",
+      "features": [
+        {
+          "title": "Códigos Ativos",
+          "description": "Resgate mel grátis, boosts temporários e recompensas exclusivas verificadas a cada atualização."
+        },
+        {
+          "title": "Estratégias de Colmeia",
+          "description": "Monte a colmeia perfeita com sinergias ideais entre abelhas e prioridades de mutação."
+        },
+        {
+          "title": "Dicas de Progressão",
+          "description": "Acelere suas metas de rebirth e libere campos de flores de nível superior mais rápido."
+        }
+      ]
+    },
+    "updates": {
+      "title": "Últimas Atualizações",
+      "browse": "Explorar Todos os Guias",
+      "viewAll": "Ver Tudo"
+    },
+    "start": {
+      "eyebrow": "Comece Aqui",
+      "title": "Sua Jornada em BSS Reworked",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para Iniciantes",
+          "description": "Aprenda os fundamentos essenciais desde o primeiro dia: reivindicar colmeia, coletar pólen e converter em mel."
+        },
+        {
+          "number": "2",
+          "title": "Coleta de Pólen e Mel",
+          "description": "Descubra as melhores rotas em campos floridos e aprenda a otimizar a capacidade da mochila durante farmings intensos."
+        },
+        {
+          "number": "3",
+          "title": "Enxame e Colmeia",
+          "description": "Choque ovos de abelhas, equilibre unidades de coleta e ataque, e construa uma composição versátil e produtiva."
+        },
+        {
+          "number": "4",
+          "title": "Códigos Ativos e Boosts",
+          "description": "Resgate imediatamente todos os códigos promocionais válidos para garantir bônus de velocidade, multiplicadores e mel inicial."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas Populares",
+      "title": "Tendências do Momento",
+      "quickLinks": [
+        "Guia para Iniciantes",
+        "Códigos Ativos",
+        "Tier List de Abelhas",
+        "Dicas de Progressão"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para Iniciantes",
+          "description": "Tudo o que você precisa saber desde a primeira abelha até atingir sua primeira marca de 100.000 de mel.",
+          "linkText": "Ler Guia"
+        },
+        {
+          "badge": "Recompensas",
+          "title": "Códigos Ativos",
+          "description": "Códigos promocionais atualizados com mel gratuito, buffs de velocidade e recursos extras.",
+          "linkText": "Ver Códigos"
+        },
+        {
+          "badge": "Abelhas",
+          "title": "Tier List de Abelhas",
+          "description": "Descubra quais abelhas comuns, raras, épicas, lendárias e míticas trazem o maior rendimento à colmeia.",
+          "linkText": "Ver Tiers"
+        },
+        {
+          "badge": "Avançado",
+          "title": "Dicas de Progressão",
+          "description": "Estratégias detalhadas para desbloquear zonas de 10, 20 e 30 abelhas e escalar a produção de mel.",
+          "linkText": "Ver Dicas"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é BSS Reworked?",
+      "paragraphs": [
+        "BSS Reworked é uma experiência rica de simulador de abelhas no Roblox que reformula a clássica mecânica de enxame com progressão modernizada, campos coloridos e coleta dinâmica de mel. Choque variadas espécies de abelhas, personalize sua colmeia e colete pólen em múltiplos biomas florais.",
+        "Progrida cumprindo missões com ursos guardiões, libere ferramentas e mochilas avançadas, enfrente criaturas nos campos e aprimore habilidades passivas para se tornar o apicultor de maior sucesso no Roblox."
+      ],
+      "featuresTitle": "Destaques de BSS Reworked",
+      "features": [
+        {
+          "title": "Sistemas de Abelhas Aprimorados",
+          "description": "Habilidades rebalanceadas, novos efeitos visuais e talentos de enxame criados para uma jogabilidade fluida e divertida."
+        },
+        {
+          "title": "Zonas e Campos Expansivos",
+          "description": "Desbloqueie áreas exclusivas protegidas por requisitos de abelhas, com flores ricas em pólen e itens raros."
+        },
+        {
+          "title": "Equipamentos e Mochilas",
+          "description": "Equipe coletores de alto desempenho, mochilas espaçosas e amuletos que multiplicam seus rendimentos."
+        },
+        {
+          "title": "Missões e Desafios Dinâmicos",
+          "description": "Participe de tarefas diárias, desafios de ursos e eventos especiais para conquistar recompensas valiosas e ovos."
+        }
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Simulador / Aventura"
+        },
+        {
+          "label": "Loop Principal",
+          "value": "Pólen ➔ Mel ➔ Abelhas ➔ Melhorias"
+        },
+        {
+          "label": "Tiers de Abelhas",
+          "value": "Básica até Mítica e de Evento"
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explorar a Wiki de BSS Reworked",
+      "description": "Domine BSS Reworked no Roblox com guias essenciais de evolução, códigos ativos, catálogo completo de abejas e melhores métodos de coleta de mel.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Códigos de BSS Reworked",
+          "description": "Resgate os códigos promocionais ativos mais recentes para ganhar mel grátis, aumentos de velocidade e buffs de pólen em BSS Reworked.",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Códigos Ativos",
+              "value": "Recompensas de Mel"
+            },
+            {
+              "label": "Códigos Expirados",
+              "value": "Histórico Registrado"
+            },
+            {
+              "label": "Como Resgatar",
+              "value": "Passo a Passo"
+            },
+            {
+              "label": "Verificação",
+              "value": "Testado no Patch"
+            }
+          ],
+          "href": "/codes"
+        },
+        {
+          "order": 2,
+          "name": "Guia para Iniciantes de BSS Reworked",
+          "description": "Instruções completas para novatos: como reivindicar colmeia, coletar pólen nos campos iniciais, converter mel e chocar as primeiras abelhas em BSS Reworked.",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "Reivindicar Colmeia",
+              "value": "Base Inicial"
+            },
+            {
+              "label": "Coleta de Pólen",
+              "value": "Campos Básicos"
+            },
+            {
+              "label": "Conversão de Mel",
+              "value": "Produção de Moedas"
+            },
+            {
+              "label": "Primeiros Ovos",
+              "value": "Expandir o Enxame"
+            }
+          ],
+          "href": "/guide/bss-reworked-beginner-guide"
+        },
+        {
+          "order": 3,
+          "name": "Tier List de Abelhas de BSS Reworked",
+          "description": "Classificação detalhada de abelhas: desde comuns e raras até épicas, lendárias e míticas avaliadas para coleta e batalha em BSS Reworked.",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "Tier S",
+              "value": "Míticas e Meta"
+            },
+            {
+              "label": "Tier A",
+              "value": "Lendárias Principais"
+            },
+            {
+              "label": "Tier B",
+              "value": "Épicas de Suporte"
+            },
+            {
+              "label": "Tier C",
+              "value": "Comuns Iniciais"
+            }
+          ],
+          "href": "/items/bss-reworked-bee-types"
+        },
+        {
+          "order": 4,
+          "name": "Rota de Progressão de BSS Reworked",
+          "description": "Roteiro eficiente do início ao fim de jogo, requisitos de zonas avançadas, metas de abelhas e processo de rebirth em BSS Reworked.",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "Início de Jogo",
+              "value": "0 a 10 Abelhas"
+            },
+            {
+              "label": "Meio de Jogo",
+              "value": "10 a 25 Abelhas"
+            },
+            {
+              "label": "Fim de Jogo",
+              "value": "Zonas de 35+ Abelhas"
+            },
+            {
+              "label": "Meta de Rebirth",
+              "value": "Multiplicador Supremo"
+            }
+          ],
+          "href": "/progression/bss-reworked-progression-guide"
+        },
+        {
+          "order": 5,
+          "name": "Equipamentos e Itens de BSS Reworked",
+          "description": "Catálogo completo de coletores de pólen, mochilas de armazenamento, amuletos e acessórios de aprimoramento em BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Ferramentas",
+              "value": "Coletores e Pás"
+            },
+            {
+              "label": "Mochilas",
+              "value": "Capacidade de Carga"
+            },
+            {
+              "label": "Amuletos",
+              "value": "Atributos Passivos"
+            },
+            {
+              "label": "Acessórios",
+              "value": "Botas e Cintos"
+            }
+          ],
+          "href": "/items"
+        },
+        {
+          "order": 6,
+          "name": "Mecânicas de Jogo de BSS Reworked",
+          "description": "Compreenda a taxa de geração de pólen por flor, multiplicadores de conversão, monstros dos campos e talentos passivos em BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tipos de Pólen",
+              "value": "Vermelho, Azul e Branco"
+            },
+            {
+              "label": "Conversão",
+              "value": "Velocidade de Mel"
+            },
+            {
+              "label": "Monstros",
+              "value": "Respawn e Drops"
+            },
+            {
+              "label": "Missões",
+              "value": "Tarefas dos Ursos"
+            }
+          ],
+          "href": "/mechanics"
+        },
+        {
+          "order": 7,
+          "name": "Mapas e Zonas de BSS Reworked",
+          "description": "Guia visual de navegação para todos os campos florais, portões com restrição de nível, passagens secretas e localização de NPCs em BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Área Inicial",
+              "value": "Campos Livres"
+            },
+            {
+              "label": "Portão de 10 Abelhas",
+              "value": "Vale Médio"
+            },
+            {
+              "label": "Portão de 25 Abelhas",
+              "value": "Planalto Superior"
+            },
+            {
+              "label": "Áreas Secretas",
+              "value": "Baús Ocultos"
+            }
+          ],
+          "href": "/maps"
+        },
+        {
+          "order": 8,
+          "name": "Comunidade de BSS Reworked",
+          "description": "Participe de conversas com jogadores, entre no Discord oficial, leia notas de atualização e compartilhe layouts de colmeias em BSS Reworked.",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Servidor Discord",
+              "value": "Chat e Notícias"
+            },
+            {
+              "label": "Notas de Patch",
+              "value": "Atualizações Recentes"
+            },
+            {
+              "label": "Layouts de Colmeia",
+              "value": "Estratégias de Fãs"
+            },
+            {
+              "label": "Grupo Roblox",
+              "value": "Comunidade Oficial"
+            }
+          ],
+          "href": "/community"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "description": "Respostas rápidas para as dúvidas mais comuns sobre BSS Reworked.",
+      "items": [
+        {
+          "question": "O que é BSS Reworked?",
+          "answer": "BSS Reworked é um simulador de abelhas aprimorado no Roblox, no qual os jogadores coletam pólen, chocam abelhas, produzem mel e desbloqueiam novos biomas florais."
+        },
+        {
+          "question": "Como consigo mais abelhas em BSS Reworked?",
+          "answer": "Você pode comprar novos slots de colmeia usando mel e chocar ovos de abelha adquiridos nas lojas ou recebidos como recompensa de missões em BSS Reworked."
+        },
+        {
+          "question": "Onde encontro os códigos mais recentes de BSS Reworked?",
+          "answer": "Nossa página dedicada aos códigos de BSS Reworked é atualizada frequentemente com todos os códigos promocionais ativos para resgatar mel grátis e boosts."
+        },
+        {
+          "question": "Qual é a maneira mais rápida de evoluir em BSS Reworked?",
+          "answer": "Cumpra constantemente missões dos ursos, aprimore mochilas e ferramentas e utilize multiplicadores de pólen nos campos mais produtivos em BSS Reworked."
+        },
+        {
+          "question": "BSS Reworked é gratuito para jogar no Roblox?",
+          "answer": "Sim, BSS Reworked é totalmente gratuito na plataforma Roblox para PC, dispositivos móveis e consoles."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para Dominar BSS Reworked?",
+      "description": "Da coleta de pólen ao nascimento de abelhas míticas e segredos escondidos, nossa wiki da comunidade traz guias gratuitos e atualizados.",
+      "primary": "Ler o Guia para Iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice de Conteúdo",
+    "nextSteps": "Próximos Passos",
+    "needHelp": "Precisa de Ajuda?",
+    "relatedReading": "Leituras Relacionadas",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia Oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Nenhum guia disponível nesta seção no momento."
+  },
+  "footer": {
+    "aboutTitle": "Wiki de BSS Reworked",
+    "about": "A Wiki de BSS Reworked é uma central independente criada por fãs que traz rotas de progressão, tipos de abelhas, itens, códigos ativos e mecânicas essenciais para jogadores de Roblox.",
+    "quickLinks": "Links Rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Wiki de BSS Reworked. Sem afiliação com o Roblox ou os desenvolvedores do jogo.",
+    "description": "O guia definitivo de fãs para BSS Reworked no Roblox com códigos, guias, itens e dicas de progressão.",
+    "links": {
+      "codes": "Códigos",
+      "beginnerGuide": "Guia para Iniciantes",
+      "tierList": "Tier List de Abelhas",
+      "progression": "Guia de Progressão",
+      "privacyPolicy": "Política de Privacidade",
+      "termsOfService": "Termos de Serviço"
+    },
+    "legalNotice": "BSS Reworked Wiki é um site independente de fãs e não possui vínculo ou endosso da Roblox Corporation.",
+    "allRightsReserved": "Todos os direitos reservados.",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "home": "Início",
+    "explore": "Explorar",
+    "community": "Comunidade"
+  },
+  "guide": {
+    "overviewTitle": "Guias de BSS Reworked",
+    "overviewDescription": "Guias abrangentes, tutoriais para iniciantes, estratégias de rebirth e dicas de progressão em BSS Reworked."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de BSS Reworked",
+    "overviewDescription": "Guia detalhado sobre abelhas, coleta de pólen, conversão de mel, missões e sistemas de jogabilidade em BSS Reworked."
+  },
+  "items": {
+    "overviewTitle": "Itens e Equipamentos de BSS Reworked",
+    "overviewDescription": "Catálogo completo de itens, tipos de abelhas, bônus de atributos, ferramentas e recompensas em BSS Reworked."
+  },
+  "controls": {
+    "overviewTitle": "Controles e Ajustes de BSS Reworked",
+    "overviewDescription": "Domine comandos no PC e mobile, atalhos recomendados e ajustes de sensibilidade para BSS Reworked."
+  },
+  "progression": {
+    "overviewTitle": "Progressão e Rebirth em BSS Reworked",
+    "overviewDescription": "Roteiros de evolução, aceleração do início ao late game, otimização de colmeia e metas de mel em BSS Reworked."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de BSS Reworked",
+    "overviewDescription": "Códigos promocionais ativos atualizados, recompensas de mel grátis, ativação de boosts e guia de resgate para BSS Reworked."
+  },
+  "maps": {
+    "overviewTitle": "Mapas e Campos de BSS Reworked",
+    "overviewDescription": "Visão geral completa dos campos florais, zonas bloqueadas por abelhas, segredos e localização de NPCs em BSS Reworked."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de BSS Reworked",
+    "overviewDescription": "Entre no servidor oficial do Discord de BSS Reworked, discussões com jogadores, notas de versão e grupos de fãs."
+  }
+}
