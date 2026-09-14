@@ -74,9 +74,11 @@ Nuevo promedio repetible: 250.000.000 de polen -> 100.000.000 de miel + botín d
 
 Brown Bear funciona mediante un algoritmo de escalado matemático. Para jugadores con menos de 1.000 misiones completadas, el polen requerido escala exponencialmente a través de una curva potencial:
 
-$$\text{Polen Requerido} = x + (y - x) \times \left(\frac{\text{Misiones Completadas}}{1000}\right)^4$$
+```text
+\text{Polen Requerido} = x + (y - x) \times \left(\frac{\text{Misiones Completadas}}{1000}\right)^4
+```
 
-*(Donde $x$ es el polen base mínimo e $y$ es el límite teórico máximo de polen).*
+*(Donde `x` es el polen base mínimo e `y` es el límite teórico máximo de polen).*
 
 A pesar del intenso escalado, Brown Bear proporciona algunas de las mejores recompensas por hitos en *Bee Swarm Simulator*.
 
@@ -127,7 +129,7 @@ Una vez entregados los Translators en los cuarteles Blue HQ y Red HQ, Gifted Buc
 
 * **Gifted Bucko Bee:** Blue Boosts, recolección en Pine Tree/Bamboo, alimentar con Blueberries y cazar Rhino Beetles.
 * **Gifted Riley Bee:** Red Boosts, recolección en Strawberry/Rose, alimentar con Strawberries y cazar Ladybugs/Scorpions.
-* **Honey Bee:** Asigna *Honey Bee's Honey Hunt*, que escala según $500 \times n$ fichas de miel (Honey Tokens). Cada 10 misiones completadas otorga una Star Jelly garantizada y un potenciador temporal de 2x a la tasa de conversión.
+* **Honey Bee:** Asigna *Honey Bee's Honey Hunt*, que escala según `500 \times n` fichas de miel (Honey Tokens). Cada 10 misiones completadas otorga una Star Jelly garantizada y un potenciador temporal de 2x a la tasa de conversión.
 
 ---
 

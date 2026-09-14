@@ -74,9 +74,11 @@ Rata-rata Repeatable Baru: 250.000.000 Polen -> 100.000.000 Honey + Drop High-Ti
 
 Brown Bear beroperasi menggunakan algoritma penskalaan matematis. Untuk pemain dengan jumlah quest selesai di bawah 1.000, polen yang dibutuhkan meningkat secara eksponensial melalui kurva daya (power curve):
 
-$$\text{Required Pollen} = x + (y - x) \times \left(\frac{\text{Quests Completed}}{1000}\right)^4$$
+```text
+\text{Required Pollen} = x + (y - x) \times \left(\frac{\text{Quests Completed}}{1000}\right)^4
+```
 
-*(Di mana $x$ adalah polen dasar minimum dan $y$ adalah batas polen teoritis maksimum).*
+*(Di mana `x` adalah polen dasar minimum dan `y` adalah batas polen teoritis maksimum).*
 
 Terlepas dari penskalaannya yang intens, Brown Bear menyediakan beberapa hadiah milestone terbaik di *Bee Swarm Simulator*.
 
@@ -127,7 +129,7 @@ Setelah Translator diserahkan ke Blue dan Red HQ, Gifted Bucko Bee dan Gifted Ri
 
 * **Gifted Bucko Bee:** Blue Boost, pengumpulan di Pine Tree/Bamboo, memberi makan Blueberry, dan perburuan Rhino Beetle.
 * **Gifted Riley Bee:** Red Boost, pengumpulan di Strawberry/Rose, memberi makan Strawberry, dan perburuan Ladybug/Scorpion.
-* **Honey Bee:** Memberikan *Honey Bee's Honey Hunt*, berskala sebesar $500 \times n$ Honey Token. Setiap penyelesaian ke-10 memberikan Star Jelly terjamin dan boost 2x Convert Rate sementara.
+* **Honey Bee:** Memberikan *Honey Bee's Honey Hunt*, berskala sebesar `500 \times n` Honey Token. Setiap penyelesaian ke-10 memberikan Star Jelly terjamin dan boost 2x Convert Rate sementara.
 
 ---
 

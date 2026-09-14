@@ -74,9 +74,11 @@ New Repeatable Average: 250,000,000 Pollen -> 100,000,000 Honey + High-Tier Drop
 
 Brown Bear operates on a mathematical scaling algorithm. For players under 1,000 completed quests, required pollen scales exponentially via a power curve:
 
-$$\text{Required Pollen} = x + (y - x) \times \left(\frac{\text{Quests Completed}}{1000}\right)^4$$
+```text
+\text{Required Pollen} = x + (y - x) \times \left(\frac{\text{Quests Completed}}{1000}\right)^4
+```
 
-*(Where $x$ is the minimum base pollen and $y$ is the maximum theoretical pollen cap).*
+*(Where `x` is the minimum base pollen and `y` is the maximum theoretical pollen cap).*
 
 Despite the intense scaling, Brown Bear provides some of the best milestone rewards in *Bee Swarm Simulator*.
 
@@ -127,7 +129,7 @@ Once Translators are delivered to the Blue and Red HQs, Gifted Bucko Bee and Gif
 
 * **Gifted Bucko Bee:** Blue Boosts, Pine Tree/Bamboo gathering, Blueberry feeding, and Rhino Beetle hunts.
 * **Gifted Riley Bee:** Red Boosts, Strawberry/Rose gathering, Strawberry feeding, and Ladybug/Scorpion hunts.
-* **Honey Bee:** Assigns *Honey Bee's Honey Hunt*, scaling by $500 \times n$ Honey Tokens. Every 10th completion yields a guaranteed Star Jelly and a temporary 2x Convert Rate boost.
+* **Honey Bee:** Assigns *Honey Bee's Honey Hunt*, scaling by `500 \times n` Honey Tokens. Every 10th completion yields a guaranteed Star Jelly and a temporary 2x Convert Rate boost.
 
 ---
 
