@@ -9,8 +9,8 @@
   "nav": {},
   "home": {
     "meta": {
-      "title": "BSS Reworked Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "BSS Reworked Wiki — Codes, Guides, Bees & Progression",
+      "description": "Complete BSS Reworked guide on Roblox with active working codes, bee tier list, pollen farming tips, equipment upgrades, and hive progression."
     },
     "hero": {
       "eyebrow": "Roblox Bee Simulator Experience",
@@ -34,27 +34,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your BSS Reworked Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master the basics from day one with our complete beginner guide covering hive claiming, pollen gathering, and honey conversion."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Pollen & Honey Farming",
+          "description": "Learn optimal farming routes across flower fields and use field boosters to maximize your hourly honey income."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Bee Swarm & Hive Building",
+          "description": "Hatch diverse bee eggs, roll for gifted abilities, and build a high-efficiency swarm tailored to your playstyle."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Active Codes & Boosts",
+          "description": "Redeem all current working promo codes to claim free royal jellies, tickets, and instant pollen multipliers."
         }
       ]
     },
@@ -62,237 +62,323 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Active Codes",
+        "Bee Tier List",
+        "Progression Tips"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need from your first hive slot to mastering pollen collection and honey conversion in BSS Reworked.",
+          "href": "/guide/bss-reworked-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "description": "All working BSS Reworked codes with free honey, tickets, and royal jellies. Redeem before they expire.",
+          "href": "/codes/bss-reworked-codes"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Bee Catalog & Rarities",
+          "description": "Complete database of every bee type in BSS Reworked from Common to Mythic with abilities and stats.",
+          "href": "/items/bss-reworked-bee-types"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Progression & Rebirth Guide",
+          "description": "Optimal hive expansion milestones, equipment upgrade order, and rebirth strategies in BSS Reworked.",
+          "href": "/progression/bss-reworked-progression"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Field Maps & Locations",
+          "description": "Detailed guide to every floral field, flower color bonuses, gate requirements, and dispenser locations.",
+          "href": "/maps/bss-reworked-map"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Bear Quests Walkthrough",
+          "description": "Every Bear questline detailed with task requirements, efficient farming methods, and exclusive rewards.",
+          "href": "/mechanics/bss-reworked-quests"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Equipment & Backpacks",
+          "description": "Comprehensive guide to all scoops, rakes, vacuums, and backpacks with costs and stats.",
+          "href": "/items/bss-reworked-equipment"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Honey & Pollen Mechanics",
+          "description": "In-depth breakdown of pollen collection multipliers, conversion rates, and hive synergy bonuses.",
+          "href": "/mechanics/bss-reworked-honey"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Community & Discord",
+          "description": "Join the official BSS Reworked community for code alerts, patch announcements, and hive advice.",
+          "href": "/community/bss-reworked-discord"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is BSS Reworked?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "BSS Reworked is an immersive bee simulator experience on Roblox reimagining classic swarm mechanics with modernized progression, vibrant fields, and dynamic honey collection. Hatch diverse bee species, assemble your custom hive, and harvest pollen across expansive floral fields.",
+        "Whether you are completing bear quests, crafting powerful collector equipment, or optimizing your bee team with synergistic boosts, our community wiki provides accurate guides, active codes, and up-to-date data tables to accelerate your journey."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Bee Simulator"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Core Loop",
+          "value": "Pollen & Honey"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Bee Types",
+          "value": "Common to Mythic"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Controls",
+          "value": "PC & Mobile"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Price",
+          "value": "Free to Play"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore BSS Reworked Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master BSS Reworked on Roblox with essential progression guides, active codes, complete bee catalog, and optimal honey farming strategies.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "BSS Reworked Codes",
+          "description": "Redeem the latest working codes to claim free honey, royal jellies, tickets, and field boosts in BSS Reworked before they expire.",
+          "href": "/codes/bss-reworked-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "REWORKED2026",
+              "detail": "Free Honey & 5x Royal Jelly",
+              "badge": "Active"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "HONEYBOOST",
+              "detail": "2x Pollen Boost for 15m",
+              "badge": "Active"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "BUZZING",
+              "detail": "10x Tickets & Capacity Boost",
+              "badge": "Active"
+            },
+            {
+              "label": "RELEASE",
+              "detail": "Starter Pack & 1,000 Honey",
+              "badge": "Active"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "BSS Reworked Beginner Guide",
+          "description": "A step-by-step starter walkthrough explaining hive basics, pollen gathering, honey conversion, and early gear upgrades in BSS Reworked.",
+          "href": "/guide/bss-reworked-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Claim an empty hive slot and hatch your very first starter bee egg."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Equip your beginner scoop and collect pollen in the Sunflower and Clover fields."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Return to your hive to convert collected pollen into honey currency."
+            },
+            {
+              "label": "4",
+              "detail": "Purchase basic backpack upgrades to dramatically increase pollen capacity."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
+          "name": "BSS Reworked Bee Tier List",
+          "description": "Comprehensive rankings of bees and hive units categorized by pollen harvesting speed, attack damage, and conversion efficiency.",
+          "href": "/items/bss-reworked-bee-types",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Mythic Bees · Supreme event bees providing massive hive multipliers and auto-collection."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Legendary Bees · Top-tier specialists with high conversion rates and gifted bonuses."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Epic Bees · Reliable mid-tier gatherers offering essential haste and focus tokens."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Rare Bees · Early progression utility units easily replaced as your hive expands."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "BSS Reworked Progression Guide",
+          "description": "Recommended progression roadmap from early game to advanced rebirth stages, detailing hive slot milestones and gear priorities.",
+          "href": "/progression/bss-reworked-progression",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Expand your hive to 10 bee slots to unlock access to higher elevation fields."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Complete early Bear quests to earn valuable Royal Jellies and Golden Rakes."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Reach 25 bees and unlock gate areas with elite tools and powerful field boosters."
+            },
+            {
+              "label": "4",
+              "detail": "Prepare for rebirth milestones by stockpiling honey and rare crafting ingredients."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "BSS Reworked Bees Guide",
+          "description": "Detailed catalog covering all bee species, rarity brackets, unique combat abilities, and synergy bonuses for hive optimization.",
+          "href": "/mechanics/bss-reworked-bees",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Basic",
+              "detail": "Starter Bee — Foundation unit for beginner pollen harvesting"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Rare",
+              "detail": "Bomber & Rad Bees — Token generation and red field boosting"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Epic",
+              "detail": "Bucko & Riley Bees — Dedicated field specialists and quest facilitators"
+            },
+            {
+              "label": "Legendary",
+              "detail": "Carpenter & Lion Bees — High critical attack and hive capacity marks"
+            },
+            {
+              "label": "Mythic",
+              "detail": "Vector & Tadpole Bees — Endgame field metamorphosis and bubble boosts"
+            },
+            {
+              "label": "Event",
+              "detail": "Photon & Tabby Bees — Supreme permanent stat scaling and photon beams"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "BSS Reworked Quests Guide",
+          "description": "Complete walkthrough of recurring Bear quests, storyline missions, reward thresholds, and efficient completion strategies.",
+          "href": "/mechanics/bss-reworked-quests",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Black Bear",
+              "detail": "Storyline quests rewarding honey, eggs, and the legendary Star Jelly"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Brown Bear",
+              "detail": "Continuous repeatable tasks providing tickets and royal jelly reserves"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Panda Bear",
+              "detail": "Combat and mob hunting missions testing your bee swarm attack strength"
+            },
+            {
+              "label": "Science Bear",
+              "detail": "Field conversion and pollen science experiments unlocking translators"
+            },
+            {
+              "label": "Polar Bear",
+              "detail": "Energy cooking recipes granting permanent bee swarm energy buffs"
+            },
+            {
+              "label": "Daily",
+              "detail": "Time-limited daily challenges granting bonus tickets and honey rewards"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "BSS Reworked Updates",
+          "description": "Archive of recent patch notes, game version changes, new bee additions, balance adjustments, and upcoming feature announcements.",
+          "href": "/guide/bss-reworked-update-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patch v1.2",
+              "detail": "Added new Mythic bee types, revamped Bamboo Field, and rebalanced pollen rates"
+            },
+            {
+              "label": "Expansion",
+              "detail": "Unlocked the 35-Bee Gate zone featuring elite equipment and high-tier dispensers"
+            },
+            {
+              "label": "Events",
+              "detail": "Seasonal Swarm Festival introduced limited-time quests and exclusive cosmetics"
+            },
+            {
+              "label": "Fixes",
+              "detail": "Optimized mobile controls, improved token magnet physics, and fixed hive sync"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "BSS Reworked Community",
+          "description": "Connect with the active BSS Reworked player community, join the official Discord server, trade tips, and find hive guides.",
+          "href": "/community/bss-reworked-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Join 50K+ players for sneak peeks, instant code alerts, and hive advice"
+            },
+            {
+              "label": "Roblox",
+              "detail": "Official Roblox group for daily in-game bonuses and member-only dispensers"
+            },
+            {
+              "label": "Reddit",
+              "detail": "Community subreddit for sharing hive showcases, memes, and theorycrafting"
+            },
+            {
+              "label": "Wiki",
+              "detail": "Collaborative database maintained by veteran players with up-to-date stats"
             }
           ]
         }
@@ -300,27 +386,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about BSS Reworked.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is BSS Reworked?",
+          "answer": "BSS Reworked is an enhanced Roblox bee simulator experience where players collect pollen, hatch diverse bee species, build customized hives, and convert pollen into honey. The game features expanded fields, modernized quest lines, and deep progression mechanics."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do I redeem codes in BSS Reworked?",
+          "answer": "To redeem codes in BSS Reworked, open the settings or promo menu in-game, enter any working code from our active codes list, and click Redeem to receive instant honey, royal jellies, and field boosts."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What is the fastest way to earn honey in BSS Reworked?",
+          "answer": "The fastest way to earn honey in BSS Reworked is to align your bee types with high-tier floral fields, collect active boost tokens, complete Bear quests regularly, and upgrade your backpack capacity to maximize each harvest run."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Which bees should beginners prioritize in BSS Reworked?",
+          "answer": "Beginners in BSS Reworked should focus on hatching a balanced swarm of Rare and Epic bees that produce Haste and Focus tokens, enabling faster movement across fields and higher pollen gathering rates."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How does rebirth progression work in BSS Reworked?",
+          "answer": "Rebirth progression in BSS Reworked allows experienced beekeepers to reset certain milestones in exchange for permanent honey multipliers, exclusive equipment access, and elite hive upgrades."
         }
       ]
     },
